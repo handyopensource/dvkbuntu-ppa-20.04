@@ -1,0 +1,10 @@
+if background_color 0,0,0; then
+  clear
+fi
+
+color_normal=white/black
+
+if [ -e ${prefix}/themes/DVKbuntu-logo/theme.txt ]; then
+  insmod png
+  theme=${prefix}/themes/DVKbuntu-logo/theme.txt
+fi

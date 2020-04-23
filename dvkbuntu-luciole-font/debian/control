@@ -1,0 +1,13 @@
+Source: dvkbuntu-luciole-font
+Section: misc
+Priority: important
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://discord.gg/FtsNjjC
+
+Package: dvkbuntu-luciole-font
+Architecture: any
+Depends: 
+Description: DVKBUNTU polices de caractère luciole.
+ <insert long description, indented with spaces>

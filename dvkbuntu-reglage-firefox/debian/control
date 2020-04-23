@@ -1,0 +1,13 @@
+Source: dvkbuntu-reglage-firefox
+Section: misc
+Priority: important
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://discord.gg/FtsNjjC
+
+Package: dvkbuntu-reglage-firefox
+Architecture: any
+Depends: dvkbuntu-page-acceuil, firefox
+Description: DVKBUNTU reglages Firefox.
+ <insert long description, indented with spaces>

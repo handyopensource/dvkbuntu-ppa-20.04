@@ -1,0 +1,19 @@
+[DownloadDialog Settings]
+Height 1874=695
+Width 3744=852
+
+[MainWindow]
+Height 1080=840
+Height 1874=840
+Height 2160=700
+Height 480=840
+Height 900=700
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABAAAAAK8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1600=1024
+Width 1920=1910
+Width 3744=2130
+Width 3840=1024
+Width 640=2130
+Window-Maximized 480x640=true

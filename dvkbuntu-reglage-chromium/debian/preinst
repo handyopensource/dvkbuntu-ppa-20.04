@@ -1,0 +1,6 @@
+ #!/bin/bash
+
+snap remove --purge chromium
+snap install --devmode chromium
+
+

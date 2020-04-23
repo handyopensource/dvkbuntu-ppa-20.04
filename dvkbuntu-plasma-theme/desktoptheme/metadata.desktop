@@ -1,0 +1,26 @@
+[Desktop Entry]
+Name=DVKBUNTU
+Comment=Default DVKBUNTU theme
+
+X-KDE-PluginInfo-Author=Paul WOISARD
+X-KDE-PluginInfo-Email=paulwoisard@gmail.com
+X-KDE-PluginInfo-Name=DVKBUNTU
+X-KDE-PluginInfo-Version=5.30
+X-KDE-PluginInfo-Website=https://discord.gg/FtsNjjC
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=LGPLv3
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
+
+[Wallpaper]
+defaultWallpaperTheme=DVKBUNTU-Voie-Lactee
+defaultFileSuffix=.png
+defaultWidth=1920
+defaultHeight=1080
+
+[ContrastEffect]
+enabled=true
+contrast=0.2
+intensity=0.4
+saturation=1.7

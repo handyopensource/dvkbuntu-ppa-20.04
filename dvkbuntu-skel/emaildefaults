@@ -1,0 +1,6 @@
+[Defaults]
+Profile=Par défaut
+
+[PROFILE_Par défaut]
+EmailAddress=paulwoisard@gmail.com
+ServerType=

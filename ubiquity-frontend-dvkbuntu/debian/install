@@ -1,0 +1,32 @@
+kde_ui.py usr/lib/ubiquity/ubiquity/frontend/
+
+app.ui usr/share/ubiquity/qt/
+partition_create_dialog.ui usr/share/ubiquity/qt/
+stepLanguage.ui usr/share/ubiquity/qt/
+stepUserSetup.ui usr/share/ubiquity/qt/
+breadcrumb_current.qss usr/share/ubiquity/qt/
+partition_edit_dialog.ui usr/share/ubiquity/qt/
+stepLocation.ui usr/share/ubiquity/qt/
+stepWireless.ui usr/share/ubiquity/qt/
+crashdialog.ui usr/share/ubiquity/qt/
+stepPartAuto.ui usr/share/ubiquity/qt/
+style.qss usr/share/ubiquity/qt/
+stepIntro.ui usr/share/ubiquity/qt/
+stepPartMan.ui usr/share/ubiquity/qt/
+stepKeyboardConf.ui usr/share/ubiquity/qt/
+stepPrepare.ui usr/share/ubiquity/qt/
+
+share/README usr/share/ubiquity/qt/share/
+
+share/config/kwinrc usr/share/ubiquity/qt/share/config/
+
+images/.directory usr/share/ubiquity/qt/images/
+images/branding.svgz usr/share/ubiquity/qt/images/
+images/breadcrumb_rtl.png usr/share/ubiquity/qt/images/
+images/main.png usr/share/ubiquity/qt/images/
+images/sidebar_shadow_ltr.png usr/share/ubiquity/qt/images/
+images/try.png usr/share/ubiquity/qt/images/
+images/breadcrumb_ltr.png usr/share/ubiquity/qt/images/
+images/install.png usr/share/ubiquity/qt/images/
+images/sidebar.png usr/share/ubiquity/qt/images/
+images/sidebar_shadow_rtl.png usr/share/ubiquity/qt/images/

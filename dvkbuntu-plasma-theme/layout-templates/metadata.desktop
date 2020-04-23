@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=DVKBUNTU
+Name[fr]=DVKBUNTU
+Comment=DVKBUNTU featuring application launcher, task manager and system tray
+Comment[fr]=Tableau de bord DVKBUNTU contenant le lanceur d'application, le gestionnaire de tâche et la boîte à miniatures 
+Type=Service
+
+X-KDE-ServiceTypes=Plasma/LayoutTemplate
+X-Plasma-Shell=plasmashell
+X-Plasma-ContainmentCategories=panel
+X-KDE-PluginInfo-Author=Paul WOISARD
+X-KDE-PluginInfo-Email=paulwoisard@gmail.com
+X-KDE-PluginInfo-Name=DVKBUNTU
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=https://discord.gg/FtsNjjC
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=LGPLv3
+X-KDE-PluginInfo-EnabledByDefault=true 

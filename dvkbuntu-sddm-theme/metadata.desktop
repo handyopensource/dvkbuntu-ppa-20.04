@@ -1,0 +1,19 @@
+[SddmGreeterTheme]
+Name=DVKBUNTU
+Name[fr]=DVKBUNTU
+Description=DVKBUNTU
+Description[fr]=DVKBUNTU
+
+Author=Paul WOISARD
+Copyright=(c) 2019, Paul WOISARD
+License=CC-BY-SA
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/sddm/sddm
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=paulwoisard@gmail.com
+Theme-Id=DVKBUNTU
+Theme-API=2.0

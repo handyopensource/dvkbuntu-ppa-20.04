@@ -1,0 +1,13 @@
+Source: dvkbuntu-vortex
+Section: misc
+Priority: important
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://discord.gg/FtsNjjC
+
+Package: dvkbuntu-vortex
+Architecture: any
+Depends: 
+Description: DVKBUNTU Wallpaper Vortex
+ <insert long description, indented with spaces>

@@ -1,0 +1,209 @@
+[FileDialogSize]
+Height 1874=946
+Width 3744=1166
+
+[KFileDialog Settings]
+Recent Files[$e]=start.svg,file:///usr/share/plasma/desktoptheme/DVKBUNTU/icons/start.svgz
+Recent URLs[$e]=file:///usr/share/plasma/desktoptheme/DVKBUNTU/icons/
+
+[KPropertiesDialog]
+Height 1874=708
+Height 900=618
+Width 1600=487
+Width 3744=732
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_org.kde.partitionmanager.desktop,11 services_org.kde.konsole.desktop,1 services_pavucontrol-qt.desktop,1 services_google-chrome.desktop,1 services_org.gnome.seahorse.Application.desktop,28 services_cubic.desktop,9 services_org.kde.kinfocenter.desktop,1 services_org.qt-project.qtcreator.desktop,2 services_PinguyBuilder-gtk-kde.desktop,2 services_nocomprendo.desktop,1 services_firefox.desktop,8 services_org.kde.muon.desktop,4 services_org.kde.kate.desktop,1 services_org.kde.dolphin.desktop
+pluginWhiteList=services,bookmarks,baloosearch
+
+[PlasmaViews][Panel 102][Horizontal3744]
+thickness=30
+
+[PlasmaViews][Panel 102][Horizontal3840]
+thickness=160
+
+[PlasmaViews][Panel 121][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 142][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 161][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 180][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 199][Horizontal3744]
+thickness=80
+
+[PlasmaViews][Panel 2][Horizontal3744]
+thickness=128
+
+[PlasmaViews][Panel 2][Horizontal800]
+thickness=36
+
+[PlasmaViews][Panel 218][Horizontal3744]
+thickness=132
+
+[PlasmaViews][Panel 23][Horizontal3744]
+thickness=112
+
+[PlasmaViews][Panel 237][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 256][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 275][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 294][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 313][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 333][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 352][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 371][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 393][Horizontal3744]
+thickness=80
+
+[PlasmaViews][Panel 412][Horizontal3744]
+thickness=80
+
+[PlasmaViews][Panel 432][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 432][Horizontal640]
+thickness=30
+
+[PlasmaViews][Panel 45][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 451][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 470][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 489][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 508][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 508][Horizontal640]
+thickness=30
+
+[PlasmaViews][Panel 527][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 546][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 565][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 587][Horizontal3744]
+thickness=80
+
+[PlasmaViews][Panel 608][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 627][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 64][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 646][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 665][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 684][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 703][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 722][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 743][Horizontal3744]
+thickness=196
+
+[PlasmaViews][Panel 764][Horizontal1600]
+thickness=64
+
+[PlasmaViews][Panel 764][Horizontal1920]
+thickness=30
+
+[PlasmaViews][Panel 764][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 764][Horizontal3840]
+thickness=30
+
+[PlasmaViews][Panel 764][Horizontal640]
+thickness=30
+
+[PlasmaViews][Panel 787][Horizontal1600]
+thickness=74
+
+[PlasmaViews][Panel 809][Horizontal1600]
+thickness=72
+
+[PlasmaViews][Panel 83][Horizontal3744]
+thickness=160
+
+[PlasmaViews][Panel 83][Horizontal3840]
+thickness=30
+
+[PlasmaViews][Panel 83][Horizontal640]
+thickness=30
+
+[PlasmaViews][Panel 831][Horizontal1600]
+alignment=1
+maxLength=1600
+minLength=1600
+offset=0
+panelVisibility=0
+thickness=60
+
+[PlasmaViews][Panel 852][Horizontal1600]
+thickness=72
+
+[PlasmaViews][Panel 873][Horizontal1600]
+alignment=1
+maxLength=1600
+minLength=1600
+offset=0
+panelVisibility=0
+thickness=60
+
+[PlasmaViews][Panel 895][Horizontal1600]
+thickness=72
+
+[PlasmaViews][Panel 917][Horizontal1600]
+alignment=1
+maxLength=1600
+minLength=1600
+offset=0
+panelVisibility=0
+thickness=60
+
+[ScreenConnectors]
+0=LVDS-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

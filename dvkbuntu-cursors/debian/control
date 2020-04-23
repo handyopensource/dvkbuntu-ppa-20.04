@@ -1,0 +1,13 @@
+Source: dvkbuntu-cursors
+Section: misc
+Priority: important
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://www.dvkbuntu.org/
+
+Package: dvkbuntu-cursors
+Architecture: any
+Depends: 
+Description: DVKBUNTU Curseur de Souris adpaté aux malvoyants
+ <insert long description, indented with spaces>

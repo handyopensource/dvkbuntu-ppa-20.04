@@ -1,0 +1,13 @@
+Source: dvkbuntu-neon
+Section: misc
+Priority: important
+Maintainer: Steeve Le Gal <toulibre@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://discord.gg/FtsNjjC
+
+Package: dvkbuntu-neon
+Architecture: any
+Depends: 
+Description: DVKBUNTU Wallpaper Neon
+ <insert long description, indented with spaces>

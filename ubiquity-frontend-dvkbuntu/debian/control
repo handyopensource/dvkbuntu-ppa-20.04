@@ -1,0 +1,14 @@
+Source: ubiquity-frontend-dvkbuntu
+Section: misc
+Priority: important
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://discord.gg/FtsNjjC
+
+Package: ubiquity-frontend-dvkbuntu
+Replaces: ubiquity-frontend-kde 
+Architecture: any
+Depends: python3-pyqt5.qtsvg, python3-pyqt5.qtwebkit, python3-pyqt5.qtsvg, python3-pyqt5.qtwebkit, ubiquity
+Description: Ubiquity pour DVKBuntu
+ <insert long description, indented with spaces>

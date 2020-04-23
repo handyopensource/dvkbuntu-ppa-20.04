@@ -1,0 +1,13 @@
+Source: dvkbuntu-iso
+Section: misc
+Priority: optional
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://discord.gg/FtsNjjC
+
+Package: dvkbuntu-iso
+Architecture: any
+Depends: ubiquity-frontend-dvkbuntu, ubiquity-slideshow-dvkbuntu, ubiquity-dvkbuntu
+Description: DVKBUNTU pour installer les paquets iso DVKBUNTU
+ <insert long description, indented with spaces>

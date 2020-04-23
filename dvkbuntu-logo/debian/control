@@ -1,0 +1,13 @@
+Source: dvkbuntu-logo
+Section: misc
+Priority: important
+Maintainer: Steeve Le Gal <toulibre@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://discord.gg/FtsNjjC
+
+Package: dvkbuntu-logo
+Architecture: any
+Depends: 
+Description: DVKBUNTU Wallpaper Logo
+ <insert long description, indented with spaces>

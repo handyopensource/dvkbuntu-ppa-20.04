@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   id="SVGRoot"
+   version="1.1"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="dvkbuntu-logo.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   enable-background="new">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.5625"
+     inkscape:cx="-191.50948"
+     inkscape:cy="51.2"
+     inkscape:document-units="px"
+     inkscape:current-layer="designTop"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:snap-global="false"
+     inkscape:window-width="3744"
+     inkscape:window-height="1653"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <defs
+     id="defs4787">
+    <clipPath
+       id="patternClipPath"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:20;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1.09889996;stroke-opacity:1;marker:none;enable-background:accumulate"
+         id="clipPathRect"
+         width="128"
+         height="128"
+         x="0"
+         y="0" />
+    </clipPath>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path19572" />
+    </marker>
+    <filter
+       inkscape:label="Button"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft bevel, slightly depressed middle"
+       style="color-interpolation-filters:sRGB;"
+       id="filter422">
+      <feGaussianBlur
+         stdDeviation="2.3"
+         in="SourceAlpha"
+         result="result0"
+         id="feGaussianBlur396" />
+      <feMorphology
+         in="SourceAlpha"
+         radius="6.6"
+         result="result1"
+         id="feMorphology398" />
+      <feGaussianBlur
+         stdDeviation="8.9"
+         in="result1"
+         id="feGaussianBlur400" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result91"
+         id="feColorMatrix402" />
+      <feComposite
+         in="result0"
+         operator="out"
+         result="result2"
+         in2="result91"
+         id="feComposite404" />
+      <feGaussianBlur
+         stdDeviation="1.7"
+         result="result4"
+         id="feGaussianBlur406" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         id="feDiffuseLighting410">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight408" />
+      </feDiffuseLighting>
+      <feBlend
+         in2="SourceGraphic"
+         mode="multiply"
+         id="feBlend412" />
+      <feComposite
+         in2="SourceAlpha"
+         operator="in"
+         result="result3"
+         id="feComposite414" />
+      <feSpecularLighting
+         in="result4"
+         surfaceScale="5"
+         specularExponent="17.9"
+         id="feSpecularLighting418">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight416" />
+      </feSpecularLighting>
+      <feComposite
+         in2="result3"
+         operator="atop"
+         id="feComposite420" />
+    </filter>
+    <filter
+       inkscape:label="Button"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft bevel, slightly depressed middle"
+       style="color-interpolation-filters:sRGB;"
+       id="filter450">
+      <feGaussianBlur
+         stdDeviation="2.3"
+         in="SourceAlpha"
+         result="result0"
+         id="feGaussianBlur424" />
+      <feMorphology
+         in="SourceAlpha"
+         radius="6.6"
+         result="result1"
+         id="feMorphology426" />
+      <feGaussianBlur
+         stdDeviation="8.9"
+         in="result1"
+         id="feGaussianBlur428" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result91"
+         id="feColorMatrix430" />
+      <feComposite
+         in="result0"
+         operator="out"
+         result="result2"
+         in2="result91"
+         id="feComposite432" />
+      <feGaussianBlur
+         stdDeviation="1.7"
+         result="result4"
+         id="feGaussianBlur434" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         id="feDiffuseLighting438">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight436" />
+      </feDiffuseLighting>
+      <feBlend
+         in2="SourceGraphic"
+         mode="multiply"
+         id="feBlend440" />
+      <feComposite
+         in2="SourceAlpha"
+         operator="in"
+         result="result3"
+         id="feComposite442" />
+      <feSpecularLighting
+         in="result4"
+         surfaceScale="5"
+         specularExponent="17.9"
+         id="feSpecularLighting446">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight444" />
+      </feSpecularLighting>
+      <feComposite
+         in2="result3"
+         operator="atop"
+         id="feComposite448" />
+    </filter>
+    <filter
+       inkscape:label="Button"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft bevel, slightly depressed middle"
+       style="color-interpolation-filters:sRGB;"
+       id="filter478">
+      <feGaussianBlur
+         stdDeviation="2.3"
+         in="SourceAlpha"
+         result="result0"
+         id="feGaussianBlur452" />
+      <feMorphology
+         in="SourceAlpha"
+         radius="6.6"
+         result="result1"
+         id="feMorphology454" />
+      <feGaussianBlur
+         stdDeviation="8.9"
+         in="result1"
+         id="feGaussianBlur456" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result91"
+         id="feColorMatrix458" />
+      <feComposite
+         in="result0"
+         operator="out"
+         result="result2"
+         in2="result91"
+         id="feComposite460" />
+      <feGaussianBlur
+         stdDeviation="1.7"
+         result="result4"
+         id="feGaussianBlur462" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         id="feDiffuseLighting466">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight464" />
+      </feDiffuseLighting>
+      <feBlend
+         in2="SourceGraphic"
+         mode="multiply"
+         id="feBlend468" />
+      <feComposite
+         in2="SourceAlpha"
+         operator="in"
+         result="result3"
+         id="feComposite470" />
+      <feSpecularLighting
+         in="result4"
+         surfaceScale="5"
+         specularExponent="17.9"
+         id="feSpecularLighting474">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight472" />
+      </feSpecularLighting>
+      <feComposite
+         in2="result3"
+         operator="atop"
+         id="feComposite476" />
+    </filter>
+    <filter
+       inkscape:label="Button"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft bevel, slightly depressed middle"
+       style="color-interpolation-filters:sRGB;"
+       id="filter506">
+      <feGaussianBlur
+         stdDeviation="2.3"
+         in="SourceAlpha"
+         result="result0"
+         id="feGaussianBlur480" />
+      <feMorphology
+         in="SourceAlpha"
+         radius="6.6"
+         result="result1"
+         id="feMorphology482" />
+      <feGaussianBlur
+         stdDeviation="8.9"
+         in="result1"
+         id="feGaussianBlur484" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result91"
+         id="feColorMatrix486" />
+      <feComposite
+         in="result0"
+         operator="out"
+         result="result2"
+         in2="result91"
+         id="feComposite488" />
+      <feGaussianBlur
+         stdDeviation="1.7"
+         result="result4"
+         id="feGaussianBlur490" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         id="feDiffuseLighting494">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight492" />
+      </feDiffuseLighting>
+      <feBlend
+         in2="SourceGraphic"
+         mode="multiply"
+         id="feBlend496" />
+      <feComposite
+         in2="SourceAlpha"
+         operator="in"
+         result="result3"
+         id="feComposite498" />
+      <feSpecularLighting
+         in="result4"
+         surfaceScale="5"
+         specularExponent="17.9"
+         id="feSpecularLighting502">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight500" />
+      </feSpecularLighting>
+      <feComposite
+         in2="result3"
+         operator="atop"
+         id="feComposite504" />
+    </filter>
+    <filter
+       inkscape:label="Button"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft bevel, slightly depressed middle"
+       style="color-interpolation-filters:sRGB;"
+       id="filter534">
+      <feGaussianBlur
+         stdDeviation="2.3"
+         in="SourceAlpha"
+         result="result0"
+         id="feGaussianBlur508" />
+      <feMorphology
+         in="SourceAlpha"
+         radius="6.6"
+         result="result1"
+         id="feMorphology510" />
+      <feGaussianBlur
+         stdDeviation="8.9"
+         in="result1"
+         id="feGaussianBlur512" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result91"
+         id="feColorMatrix514" />
+      <feComposite
+         in="result0"
+         operator="out"
+         result="result2"
+         in2="result91"
+         id="feComposite516" />
+      <feGaussianBlur
+         stdDeviation="1.7"
+         result="result4"
+         id="feGaussianBlur518" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         id="feDiffuseLighting522">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight520" />
+      </feDiffuseLighting>
+      <feBlend
+         in2="SourceGraphic"
+         mode="multiply"
+         id="feBlend524" />
+      <feComposite
+         in2="SourceAlpha"
+         operator="in"
+         result="result3"
+         id="feComposite526" />
+      <feSpecularLighting
+         in="result4"
+         surfaceScale="5"
+         specularExponent="17.9"
+         id="feSpecularLighting530">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight528" />
+      </feSpecularLighting>
+      <feComposite
+         in2="result3"
+         operator="atop"
+         id="feComposite532" />
+    </filter>
+    <filter
+       inkscape:label="Button"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft bevel, slightly depressed middle"
+       style="color-interpolation-filters:sRGB;"
+       id="filter562">
+      <feGaussianBlur
+         stdDeviation="2.3"
+         in="SourceAlpha"
+         result="result0"
+         id="feGaussianBlur536" />
+      <feMorphology
+         in="SourceAlpha"
+         radius="6.6"
+         result="result1"
+         id="feMorphology538" />
+      <feGaussianBlur
+         stdDeviation="8.9"
+         in="result1"
+         id="feGaussianBlur540" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result91"
+         id="feColorMatrix542" />
+      <feComposite
+         in="result0"
+         operator="out"
+         result="result2"
+         in2="result91"
+         id="feComposite544" />
+      <feGaussianBlur
+         stdDeviation="1.7"
+         result="result4"
+         id="feGaussianBlur546" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         id="feDiffuseLighting550">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight548" />
+      </feDiffuseLighting>
+      <feBlend
+         in2="SourceGraphic"
+         mode="multiply"
+         id="feBlend552" />
+      <feComposite
+         in2="SourceAlpha"
+         operator="in"
+         result="result3"
+         id="feComposite554" />
+      <feSpecularLighting
+         in="result4"
+         surfaceScale="5"
+         specularExponent="17.9"
+         id="feSpecularLighting558">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight556" />
+      </feSpecularLighting>
+      <feComposite
+         in2="result3"
+         operator="atop"
+         id="feComposite560" />
+    </filter>
+    <filter
+       inkscape:label="Button"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft bevel, slightly depressed middle"
+       style="color-interpolation-filters:sRGB;"
+       id="filter590">
+      <feGaussianBlur
+         stdDeviation="2.3"
+         in="SourceAlpha"
+         result="result0"
+         id="feGaussianBlur564" />
+      <feMorphology
+         in="SourceAlpha"
+         radius="6.6"
+         result="result1"
+         id="feMorphology566" />
+      <feGaussianBlur
+         stdDeviation="8.9"
+         in="result1"
+         id="feGaussianBlur568" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result91"
+         id="feColorMatrix570" />
+      <feComposite
+         in="result0"
+         operator="out"
+         result="result2"
+         in2="result91"
+         id="feComposite572" />
+      <feGaussianBlur
+         stdDeviation="1.7"
+         result="result4"
+         id="feGaussianBlur574" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         id="feDiffuseLighting578">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight576" />
+      </feDiffuseLighting>
+      <feBlend
+         in2="SourceGraphic"
+         mode="multiply"
+         id="feBlend580" />
+      <feComposite
+         in2="SourceAlpha"
+         operator="in"
+         result="result3"
+         id="feComposite582" />
+      <feSpecularLighting
+         in="result4"
+         surfaceScale="5"
+         specularExponent="17.9"
+         id="feSpecularLighting586">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight584" />
+      </feSpecularLighting>
+      <feComposite
+         in2="result3"
+         operator="atop"
+         id="feComposite588" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata4790">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:inline"
+     inkscape:label="Pattern"
+     id="patternLayer"
+     inkscape:groupmode="layer">
+    <g
+       sodipodi:insensitive="true"
+       id="g8891">
+      <use
+         inkscape:tile-y0="128"
+         inkscape:tile-x0="128"
+         inkscape:tile-h="128"
+         inkscape:tile-w="128"
+         inkscape:tile-cy="64"
+         inkscape:tile-cx="64"
+         height="128"
+         width="128"
+         transform="translate(256,-128)"
+         id="fullPatternClone"
+         xlink:href="#fullPattern"
+         y="0"
+         x="0" />
+      <use
+         id="clonePreview1"
+         transform="translate(0,128)"
+         xlink:href="#fullPatternClone"
+         inkscape:tiled-clone-of="#fullPatternClone"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="clonePreview2"
+         transform="translate(0,256)"
+         xlink:href="#fullPatternClone"
+         inkscape:tiled-clone-of="#fullPatternClone"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="clonePreview3"
+         transform="translate(128,0)"
+         xlink:href="#fullPatternClone"
+         inkscape:tiled-clone-of="#fullPatternClone"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="clonePreview4"
+         transform="translate(128,128)"
+         xlink:href="#fullPatternClone"
+         inkscape:tiled-clone-of="#fullPatternClone"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="clonePreview5"
+         transform="translate(128,256)"
+         xlink:href="#fullPatternClone"
+         inkscape:tiled-clone-of="#fullPatternClone"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="clonePreview6"
+         transform="translate(256, 0)"
+         xlink:href="#fullPatternClone"
+         inkscape:tiled-clone-of="#fullPatternClone"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="clonePreview7"
+         transform="translate(256,128)"
+         xlink:href="#fullPatternClone"
+         inkscape:tiled-clone-of="#fullPatternClone"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="clonePreview8"
+         transform="translate(256,256)"
+         xlink:href="#fullPatternClone"
+         inkscape:tiled-clone-of="#fullPatternClone"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <use
+       sodipodi:insensitive="true"
+       x="0"
+       y="0"
+       xlink:href="#designBottom"
+       id="phantomBottom"
+       width="100%"
+       height="100%"
+       style="opacity:0.3" />
+    <use
+       sodipodi:insensitive="true"
+       x="0"
+       y="0"
+       xlink:href="#designTop"
+       id="phantomTop"
+       width="100%"
+       height="100%"
+       style="opacity:0.3" />
+    <g
+       transform="scale(1.28,1.28)"
+       sodipodi:insensitive="true"
+       id="infoGroup">
+      <rect
+         y="-380.86212"
+         x="-348.83969"
+         height="338.53928"
+         width="526.66248"
+         id="rect4130"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:74.66007233;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <text
+         id="text8664"
+         y="-349.80621"
+         x="-326.82172"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="-349.80621"
+           x="-326.82172"
+           id="tspan8666"
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.66861534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Seamless pattern</tspan></text>
+      <flowRoot
+         transform="translate(-709.3014,-231.7039)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         id="infoText"
+         xml:space="preserve"><flowRegion
+           id="flowRegion11597"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             y="-110.4523"
+             x="383.75671"
+             height="324.99371"
+             width="491.7114"
+             id="rect11599"
+             ry="0.97061312" /></flowRegion><flowPara
+           id="flowPara6756"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell">Use the layers &quot;<flowSpan
+   id="flowSpan7476"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold'">Pattern Foreground</flowSpan>&quot; and &quot;<flowSpan
+   id="flowSpan7478"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold'">Pattern Background</flowSpan>&quot; on the pattern page to create your design. The separation into two layers will make it easier for you to create and edit overlapping content like a foreground drawing with a background fill.</flowPara><flowPara
+           id="flowPara7456"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell"> </flowPara><flowPara
+           id="flowPara7458"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell">The layer named &quot;<flowSpan
+   id="flowSpan7480"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold'">Pattern</flowSpan>&quot; is for using the seamless pattern, copying it to other documents, adding opacity etc. </flowPara><flowPara
+           id="flowPara7460"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell">Select the group on the page, and use <flowSpan
+   id="flowSpan7484"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold'">Object-&gt;Pattern-&gt;Objects to Pattern</flowSpan> to convert your creation into a fill pattern.</flowPara><flowPara
+           id="flowPara7462"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell"> </flowPara><flowPara
+           id="flowPara7464"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell">The layer &quot;<flowSpan
+   id="flowSpan7482"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold'">Preview Background</flowSpan>&quot; provides an easy way to preview your creation if it contains transparency.</flowPara><flowPara
+           id="flowPara7466"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell">Changing this layer's visibility will not alter the pattern.</flowPara><flowPara
+           id="flowPara7468"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell"> </flowPara><flowPara
+           id="flowPara7470"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell">If an object is moved outside the pattern/page limits, it will be difficult to select it. </flowPara><flowPara
+           id="flowPara7472"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell">To move it back onto the page, select the object using the rubberband selection (click and drag a selection box) with the selection tool.</flowPara><flowPara
+           id="flowPara7474"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell">Then move it back onto the page, using the arrow keys or the &quot;Align and Distribute&quot; dialog (Shift+Ctrl+A).</flowPara></flowRoot>      <path
+         style="color:#000000;text-decoration:none;text-decoration-line:none;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:3.77952766;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#Arrow2Mend);enable-background:accumulate"
+         d="m -354.4906,-359.49 h -6.1704 V 51.51566 h 229.6052"
+         id="path19539"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <g
+       transform="translate(256,0) scale(1.28,1.28)"
+       sodipodi:insensitive="true"
+       id="textPreview">
+      <path
+         inkscape:connector-curvature="0"
+         id="path9845"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -29.56541,100 0,-7.16704 2.00731,0 0,4.51126 1.91761,0 0,-4.24223 2.00731,0 0,4.24223 4.36647,0 0,2.65578 -10.2987,0 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path9847"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -22.7433,87.81814 q 0,0.77256 0.26214,1.16575 0.26214,0.38628 0.77256,0.38628 0.46906,0 0.73808,-0.3104 0.26214,-0.31731 0.26214,-0.87604 0,-0.6967 -0.49667,-1.17266 -0.50355,-0.47596 -1.25547,-0.47596 l -0.28278,0 0,1.28303 z m -0.93124,-3.7732 4.40783,0 0,2.49017 -1.14504,0 q 0.70359,0.49666 1.02773,1.11747 0.31735,0.62082 0.31735,1.51066 0,1.20024 -0.69671,1.95213 -0.70359,0.74498 -1.82103,0.74498 -1.35893,0 -1.99355,-0.93123 -0.63462,-0.93812 -0.63462,-2.93854 l 0,-1.45547 -0.19316,0 q -0.58628,0 -0.8553,0.46216 -0.2759,0.46217 -0.2759,1.44168 0,0.79327 0.15859,1.47617 0.15868,0.6829 0.47603,1.26923 l -1.88321,0 q -0.19317,-0.79327 -0.28966,-1.59344 -0.10355,-0.80016 -0.10355,-1.60033 0,-2.09008 0.82778,-3.01441 0.8209,-0.93123 2.67642,-0.93123 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path9849"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -26.75105,75.72598 1.87625,0 q -0.33111,0.79327 -0.49658,1.53136 -0.16556,0.73808 -0.16556,1.39338 0,0.7036 0.17932,1.04849 0.17243,0.338 0.53803,0.338 0.29663,0 0.45531,-0.25522 0.15858,-0.26212 0.23453,-0.93122 l 0.0624,-0.43458 q 0.2415,-1.89694 0.79329,-2.55225 0.55189,-0.65531 1.73142,-0.65531 1.23474,0 1.85551,0.91054 0.62086,0.91053 0.62086,2.7178 0,0.76568 -0.12419,1.58654 -0.11722,0.81396 -0.35872,1.67621 l -1.87624,0 q 0.35872,-0.73809 0.53803,-1.51067 0.17941,-0.77947 0.17941,-1.57963 0,-0.72429 -0.20005,-1.08988 -0.20004,-0.3656 -0.59325,-0.3656 -0.33111,0 -0.4897,0.25524 -0.16555,0.24832 -0.25525,1.00019 l -0.055,0.43458 q -0.20692,1.64862 -0.76568,2.31082 -0.55868,0.66221 -1.69684,0.66221 -1.22787,0 -1.82112,-0.84156 -0.59325,-0.84155 -0.59325,-2.57984 0,-0.6829 0.10355,-1.43477 0.10346,-0.75188 0.32415,-1.63483 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path9851"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -29.18596,70.67666 2.19351,0 0,-2.54535 1.7659,0 0,2.54535 3.27654,0 q 0.53804,0 0.7312,-0.21383 0.1862,-0.21384 0.1862,-0.84846 l 0,-1.26922 1.7659,0 0,2.11768 q 0,1.46237 -0.60701,2.07628 -0.61398,0.60703 -2.07629,0.60703 l -3.27654,0 0,1.22784 -1.7659,0 0,-1.22784 -2.19351,0 0,-2.46948 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path9853"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -20.38415,59.23292 4.05599,0 0,2.46948 -10.66429,0 0,-2.46948 1.13128,0 q -0.67598,-0.51044 -0.99334,-1.13127 -0.32423,-0.62081 -0.32423,-1.42788 0,-1.42787 1.13826,-2.3453 1.13119,-0.91744 2.91782,-0.91744 1.78654,0 2.92471,0.91744 1.13128,0.91743 1.13128,2.3453 0,0.80707 -0.31735,1.42788 -0.32414,0.62083 -1.00013,1.13127 z m -5.00108,-1.64171 q 0,0.79327 0.58637,1.22093 0.5794,0.42078 1.6762,0.42078 1.09671,0 1.68308,-0.42078 0.5794,-0.42766 0.5794,-1.22093 0,-0.79327 -0.5794,-1.20715 -0.5794,-0.42078 -1.68308,-0.42078 -1.10368,0 -1.68317,0.42078 -0.5794,0.41388 -0.5794,1.20715 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path9855"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -24.88856,45.83706 q -0.1518,0.3242 -0.22077,0.6484 -0.0761,0.31731 -0.0761,0.64151 0,0.95193 0.61389,1.46927 0.6071,0.51045 1.74526,0.51045 l 3.55932,0 0,2.46948 -7.72574,0 0,-2.46948 1.26923,0 q -0.7588,-0.47595 -1.10367,-1.08988 -0.35185,-0.62081 -0.35185,-1.48306 0,-0.12416 0.0138,-0.26902 0.009,-0.14486 0.0413,-0.42078 l 2.23496,-0.007 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path9857"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -23.15027,36.88348 0.7036,0 0,5.77361 q 0.86914,-0.0897 1.30372,-0.62772 0.43457,-0.53804 0.43457,-1.50375 0,-0.77948 -0.22765,-1.59344 -0.23453,-0.82086 -0.70359,-1.6831 l 1.90385,0 q 0.33111,0.87604 0.49667,1.75208 0.17243,0.87604 0.17243,1.75209 0,2.09698 -1.06231,3.26274 -1.06919,1.15886 -2.99368,1.15886 -1.89009,0 -2.97304,-1.13817 -1.08304,-1.14506 -1.08304,-3.14547 0,-1.82107 1.0968,-2.91095 1.0968,-1.09678 2.93167,-1.09678 z m -0.8209,2.53846 q -0.70359,0 -1.13119,0.41388 -0.43458,0.40698 -0.43458,1.06918 0,0.71739 0.40697,1.16576 0.40009,0.44836 1.1588,0.55873 l 0,-3.20755 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path9859"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -26.99245,35.99364 0,-2.46947 5.33907,-1.92454 -5.33907,-1.91764 0,-2.47637 7.72574,3.04201 0,2.7109 -7.72574,3.03511 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path9861"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -26.99245,25.80534 0,-2.46948 7.72574,0 0,2.46948 -7.72574,0 z m -3.00753,0 0,-2.46948 2.01419,0 0,2.46948 -2.01419,0 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path9863"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -23.15027,13.23722 0.7036,0 0,5.77361 q 0.86914,-0.0897 1.30372,-0.62772 0.43457,-0.53805 0.43457,-1.50376 0,-0.77947 -0.22765,-1.59344 -0.23453,-0.82085 -0.70359,-1.6831 l 1.90385,0 q 0.33111,0.87604 0.49667,1.75208 0.17243,0.87605 0.17243,1.75209 0,2.09698 -1.06231,3.26275 -1.06919,1.15885 -2.99368,1.15885 -1.89009,0 -2.97304,-1.13816 -1.08304,-1.14506 -1.08304,-3.14548 0,-1.82106 1.0968,-2.91094 1.0968,-1.09678 2.93167,-1.09678 z m -0.8209,2.53845 q -0.70359,0 -1.13119,0.41389 -0.43458,0.40697 -0.43458,1.06918 0,0.71738 0.40697,1.16575 0.40009,0.44837 1.1588,0.55874 l 0,-3.20756 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path9865"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -26.99245,12.06456 0,-2.400495 5.32522,-1.29682 -5.32522,-1.303718 0,-2.062494 5.2701,-1.29682 -5.2701,-1.303717 0,-2.4004958732508 L -19.26671,2.034903 l 0,2.697109 -5.31147,1.303717 5.31147,1.296819 0,2.697112 -7.72574,2.0349 z" />
+    </g>
+    <g
+       style="display:inline"
+       id="fullPattern"
+       clip-path="url(#patternClipPath)"
+       inkscape:label="Helper Layer (don't use)">
+      <g
+         transform="scale(1.28,1.28)"
+         inkscape:label="Pattern Background"
+         id="designBottom"
+         inkscape:groupmode="layer" />
+      <g
+         transform="scale(1.28,1.28)"
+         inkscape:label="Pattern Foreground"
+         id="designTop"
+         inkscape:groupmode="layer">
+        <g
+           transform="scale(1,1.0)"
+           id="g7535" />
+        <path
+           d="M 99.987243,50.00459 C 100.29723,69.668875 87.617836,88.633008 69.4487,96.074625 51.599552,103.80632 29.43061,99.825445 15.501275,86.202476 1.3929477,73.08962 -3.7568066,51.484912 2.8298792,33.390969 9.1985746,14.636883 27.610696,0.81767093 47.419751,0.07480923 66.678832,-1.1695618 85.917914,9.9958711 94.517508,27.249631 c 3.599828,7.001526 5.479737,14.873241 5.469735,22.754959 z"
+           id="path2"
+           inkscape:connector-curvature="0"
+           style="fill:#0079c1;stroke-width:1.00008512;filter:url(#filter590)"
+           inkscape:export-filename="/home/paul/Bureau/packaging-disco/dvkbuntu-page-acceuil/dvkbuntu_logo.png"
+           inkscape:export-xdpi="448.12497"
+           inkscape:export-ydpi="448.12497" />
+        <path
+           d="m 33.62041,67.868483 c 0.559973,-12.292679 1.129946,-24.575356 1.699918,-36.868035 -3.769819,-3.430747 -7.539639,-6.861495 -11.299461,-10.292243 -1.779914,0.180039 -2.799866,2.43053 -4.249796,3.490761 -1.639922,1.130246 -2.609876,2.760602 -0.889958,4.340946 1.689919,2.790608 3.389838,5.581216 5.079758,8.371825 -1.819914,2.57056 -1.639922,6.811484 -5.619732,6.491414 -2.829865,0.690151 -5.809723,1.01022 -8.5545917,1.940423 -0.2459883,2.680584 -0.2539883,5.541207 0,8.221792 3.6448257,1.230268 7.5246407,1.890411 11.2644627,2.900632 0.309985,3.410743 4.249797,6.541425 0.959954,9.372042 -1.519928,2.500545 -3.419837,4.841054 -4.699776,7.451624 1.719918,2.070451 3.729822,4.090891 5.809722,5.821266 2.1099,-1.460316 3.659826,-3.91085 5.549736,-5.761253 1.649921,-1.830399 3.299843,-3.650796 4.959764,-5.481194 z"
+           id="path4"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff;stroke-width:1.00008512;filter:url(#filter562)"
+           inkscape:export-filename="/home/paul/Bureau/packaging-disco/dvkbuntu-page-acceuil/dvkbuntu_logo.png"
+           inkscape:export-xdpi="448.12497"
+           inkscape:export-ydpi="448.12497" />
+        <path
+           d="m 42.2,27.049587 c 10.529498,6.451406 21.048996,12.912815 31.578494,19.36422 4.939764,-1.080235 9.87953,-2.170473 14.819295,-3.250708 0.769961,-1.610351 -0.609968,-3.650796 -0.769968,-5.441186 -0.109993,-1.980432 -0.999946,-3.660797 -3.239844,-3.010656 -3.269844,0 -6.529687,0 -9.799531,0 -1.24994,-2.900632 -4.959764,-4.951079 -2.629875,-8.17178 0.879958,-2.790609 2.169896,-5.5012 2.799867,-8.321815 -2.169897,-1.61035 -4.599781,-3.100675 -7.029665,-4.280932 -2.939859,2.470538 -5.519737,5.441186 -8.319603,8.111768 -3.079853,-1.500328 -7.799628,0.240052 -8.509594,-4.040881 -1.349936,-2.600567 -2.359887,-5.441186 -3.919813,-7.891719 -2.659873,0.390085 -5.439741,1.06023 -7.989619,1.940422 0.119995,3.060667 1.249941,6.181347 1.769916,9.262018 0.40998,1.910417 0.82996,3.830835 1.23994,5.741252 z"
+           id="path6"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff;stroke-width:1.00008512;filter:url(#filter534)"
+           inkscape:export-filename="/home/paul/Bureau/packaging-disco/dvkbuntu-page-acceuil/dvkbuntu_logo.png"
+           inkscape:export-xdpi="448.12497"
+           inkscape:export-ydpi="448.12497" />
+        <path
+           d="m 73.158524,55.115703 c -10.619494,5.831271 -21.238987,11.65254 -31.858481,17.473808 -1.289938,4.861059 -2.569877,9.722122 -3.859815,14.593176 1.03995,1.450321 3.499832,1.210266 5.139754,1.94043 1.799914,0.85018 3.699824,0.880188 4.2098,-1.400312 1.569925,-2.860618 3.13985,-5.721243 4.709775,-8.581868 3.13985,0.290063 6.729678,-1.98043 8.439597,1.63036 2.009904,2.100453 3.769821,4.540984 5.949717,6.441398 2.439883,-1.120242 4.919764,-2.540554 7.11966,-4.09089 -0.749964,-3.770821 -2.109899,-7.471627 -3.099853,-11.212442 2.789868,-1.970429 3.539832,-6.941513 7.629636,-5.511201 2.929858,0.100022 5.909718,0.540118 8.809585,0.360079 0.929953,-2.530552 1.679914,-5.281151 2.13989,-7.941731 -2.319882,-1.120244 -5.20975,-1.260275 -7.749625,-2.000436 -2.529882,-0.560122 -5.059761,-1.130247 -7.57964,-1.700371 z"
+           id="path8"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff;stroke-width:1.00008512;filter:url(#filter506)"
+           inkscape:export-filename="/home/paul/Bureau/packaging-disco/dvkbuntu-page-acceuil/dvkbuntu_logo.png"
+           inkscape:export-xdpi="448.12497"
+           inkscape:export-ydpi="448.12497" />
+        <path
+           d="m 74.128478,50.00459 c 0.289986,12.222663 -10.07952,23.415102 -22.278938,24.065244 -12.169419,1.230267 -24.118849,-8.2618 -25.708773,-20.384443 -2.0999,-11.852582 6.119708,-24.295293 17.81915,-27.055895 11.599446,-3.260711 24.798816,3.690804 28.69863,15.083287 0.969954,2.650577 1.469931,5.471192 1.469931,8.291807 z"
+           id="path10"
+           inkscape:connector-curvature="0"
+           style="fill:#0079c1;stroke-width:1.00008512;filter:url(#filter478)"
+           inkscape:export-filename="/home/paul/Bureau/packaging-disco/dvkbuntu-page-acceuil/dvkbuntu_logo.png"
+           inkscape:export-xdpi="448.12497"
+           inkscape:export-ydpi="448.12497" />
+        <ellipse
+           style="fill:#000080;stroke-width:0.27835181;filter:url(#filter450)"
+           id="path4553"
+           cx="48.76368"
+           cy="22.306396"
+           rx="6.4216933"
+           ry="6.4504056"
+           inkscape:export-filename="/home/paul/Bureau/packaging-disco/dvkbuntu-page-acceuil/dvkbuntu_logo.png"
+           inkscape:export-xdpi="448.12497"
+           inkscape:export-ydpi="448.12497" />
+        <path
+           style="fill:#000080;stroke:#000000;stroke-width:0.29669464px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter422)"
+           d="M 85.209563,29.35029 85.061235,32.762645 59.69659,41.664452 V 53.978605 L 74.678075,84.986601 70.376371,85.135 50.351625,57.390966 33.738558,84.986601 H 30.623737 L 40.413539,55.01715 40.561903,41.516088 15.494049,32.762645 V 29.49865 l 33.374408,3.857448 z"
+           id="path4557"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="/home/paul/Bureau/packaging-disco/dvkbuntu-page-acceuil/dvkbuntu_logo.png"
+           inkscape:export-xdpi="448.12497"
+           inkscape:export-ydpi="448.12497" />
+      </g>
+      <g
+         sodipodi:insensitive="true"
+         id="designBottomGenerator">
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designBottom"
+           transform="translate(-128,-128)"
+           id="bottom1"
+           width="100%"
+           height="100%" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designBottom"
+           transform="translate(0,-128)"
+           id="bottom2"
+           width="100%"
+           height="100%" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designBottom"
+           transform="translate(128,-128)"
+           id="bottom3"
+           width="100%"
+           height="100%" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designBottom"
+           transform="translate(-128,0)"
+           id="bottom4"
+           width="100%"
+           height="100%" />
+        <use
+           transform="translate(0,0)"
+           x="0"
+           y="0"
+           xlink:href="#designBottom"
+           id="bottom5"
+           width="100%"
+           height="100%" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designBottom"
+           transform="translate(128,0)"
+           id="bottom6"
+           width="100%"
+           height="100%" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designBottom"
+           transform="translate(-128,128)"
+           id="bottom7"
+           width="100%"
+           height="100%" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designBottom"
+           transform="translate(0,128)"
+           id="bottom8"
+           width="100%"
+           height="100%" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designBottom"
+           id="bottom9"
+           width="100%"
+           height="100%"
+           transform="translate(128,128)" />
+      </g>
+      <g
+         sodipodi:insensitive="true"
+         id="designTopGenerator">
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designTop"
+           transform="translate(-128,-128)"
+           id="top1"
+           width="100%"
+           height="100%" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designTop"
+           transform="translate(0,-128)"
+           id="top2"
+           width="100%"
+           height="100%" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designTop"
+           transform="translate(128,-128)"
+           id="top3"
+           width="100%"
+           height="100%" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designTop"
+           transform="translate(-128,0)"
+           id="top4"
+           width="100%"
+           height="100%" />
+        <use
+           transform="translate(0,0)"
+           x="0"
+           y="0"
+           xlink:href="#designTop"
+           id="top5"
+           width="100%"
+           height="100%" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designTop"
+           transform="translate(128,0)"
+           id="top6"
+           width="100%"
+           height="100%" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designTop"
+           transform="translate(-128,128)"
+           id="top7"
+           width="100%"
+           height="100%" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designTop"
+           transform="translate(0,128)"
+           id="top8"
+           width="100%"
+           height="100%" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#designTop"
+           id="top9"
+           width="100%"
+           height="100%"
+           transform="translate(128,128)" />
+      </g>
+    </g>
+  </g>
+  <inkscape:_templateinfo
+     id="_templateinfo10">
+    <inkscape:_name
+       id="_name12">Seamless Pattern</inkscape:_name>
+    <inkscape:_shortdesc
+       id="_shortdesc14">Seamless Pattern</inkscape:_shortdesc>
+    <inkscape:_keywords
+       id="_keywords16">Seamless Pattern</inkscape:_keywords>
+  </inkscape:_templateinfo>
+</svg>

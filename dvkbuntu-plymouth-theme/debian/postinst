@@ -1,0 +1,5 @@
+#!/bin/bash
+
+update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/DVKbuntu-logo/DVKbuntu-logo.plymouth  100
+update-alternatives --set default.plymouth /usr/share/plymouth/themes/DVKbuntu-logo/DVKbuntu-logo.plymouth
+update-initramfs -u

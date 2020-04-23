@@ -1,0 +1,33 @@
+build-MyQMLLauncher-Desktop-Release/libMyQMLLauncher.so /usr/lib/x86_64-linux-gnu/qt5/qml/org/dvkbuntu/dvkmenulauncher/
+build-MyQMLLauncher-Desktop-Release/qmldir /usr/lib/x86_64-linux-gnu/qt5/qml/org/dvkbuntu/dvkmenulauncher/
+
+createWaveFromItem /usr/bin/
+
+AppletItem.qml /usr/share/plasma/plasmoids/org.kde.latte.containment/contents/ui/applet/
+ToolTipInstance.qml /usr/share/plasma/plasmoids/org.kde.latte.plasmoid/contents/ui/previews/
+TaskItem.qml /usr/share/plasma/plasmoids/org.kde.latte.plasmoid/contents/ui/task/
+
+DigitalClock.qml /usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/contents/ui/
+analogclock.qml /usr/share/plasma/plasmoids/org.kde.plasma.analogclock/contents/ui/
+LectureHeure /usr/bin/
+
+IconItem.qml /usr/share/plasma/plasmoids/org.kde.plasma.quicklaunch/contents/ui/
+Task.qml /usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/
+lockout.qml /usr/share/plasma/plasmoids/org.kde.plasma.lock_logout/contents/ui/
+AbstractItem.qml /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/
+PlasmoidItem.qml /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/
+StatusNotifierItem.qml /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/
+ExpanderArrow.qml /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/
+
+Logout.qml /usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/
+
+DecorationButton.qml /usr/share/kwin/aurorae/
+PlastikButton.qml /usr/share/kwin/decorations/kwin4_decoration_qml_plastik/contents/ui/
+
+usr/local/bin/google_speech-multilanguage /usr/bin/
+espeak-ng-multilanguage /usr/bin/
+pico2wave-multilanguage /usr/bin/
+
+GUI/VocalFly /usr/bin/
+GUI/vocalflyicon.png /usr/share/icons/
+GUI/VocalFly.desktop /usr/share/applications/

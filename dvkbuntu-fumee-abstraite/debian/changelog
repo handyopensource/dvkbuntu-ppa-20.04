@@ -1,0 +1,5 @@
+dvkbuntu-fumee-abstraite (4.0-1) focal; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Paul WOISARD <paulwoisard@gmail.com>  Mon, 22 Apr 2019 13:30:23 +0200

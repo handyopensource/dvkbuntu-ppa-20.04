@@ -1,0 +1,13 @@
+Source: dvkbuntu-gtk-theme
+Section: misc
+Priority: optional
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://discord.gg/FtsNjjC
+
+Package: dvkbuntu-gtk-theme
+Architecture: any
+Depends: kubuntu-desktop, dvkbuntu-menu-acceuil, grub2-splashimages 
+Description: DVKBUNTU GTK theme
+ <insert long description, indented with spaces>

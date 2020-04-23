@@ -1,0 +1,9 @@
+ #!/bin/bash
+ 
+chmod 645 -R /home/Accueil_local
+chmod -w /etc/chromium/policies/managed
+mkdir -p /etc/opt/
+mkdir -p /etc/opt/chrome/
+mkdir -p /etc/opt/chrome/policies/
+mkdir -p /etc/opt/chrome/policies/managed/
+cp -r /etc/chromium/policies/managed/test_policy.json /etc/opt/chrome/policies/managed/test_policy.json

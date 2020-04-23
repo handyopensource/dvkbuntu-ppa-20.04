@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=DVKbuntu Studio Logo
+Description=A theme that features a background with a logo.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/DVKbuntu-logo
+ScriptFile=/usr/share/plymouth/themes/DVKbuntu-logo/DVKbuntu-logo.script

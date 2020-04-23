@@ -1,0 +1,13 @@
+Source: dvkbuntu-sddm-theme
+Section: misc
+Priority: optional
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://discord.gg/FtsNjjC
+
+Package: dvkbuntu-sddm-theme
+Architecture: any
+Depends: sddm
+Description: DVKBUNTU SDDM Theme
+ <insert long description, indented with spaces>

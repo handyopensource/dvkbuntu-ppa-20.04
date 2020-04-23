@@ -1,0 +1,75 @@
+akregatorrc etc/skel/.config/
+arkrc etc/skel/.config/
+baloofileinformationrc etc/skel/.config/
+baloofilerc etc/skel/.config/
+bluedevilglobalrc etc/skel/.config/
+calligrarc etc/skel/.config/
+discoverrc etc/skel/.config/
+dolphinrc etc/skel/.config/
+drkonqirc etc/skel/.config/
+emaildefaults etc/skel/.config/
+gtkrc etc/skel/.config/
+gtkrc-2.0 etc/skel/.config/
+gwenviewrc etc/skel/.config/
+k3brc etc/skel/.config/
+kactivitymanagerdrc etc/skel/.config/
+kactivitymanagerd-statsrc etc/skel/.config/
+kactivitymanagerd-switcher etc/skel/.config/
+katemetainfos etc/skel/.config/
+katerc etc/skel/.config/
+kateschemarc etc/skel/.config/
+katevirc etc/skel/.config/
+kcminputrc etc/skel/.config/
+kconf_updaterc etc/skel/.config/
+kded5rc etc/skel/.config/
+kdeglobals etc/skel/.config/
+kdialogrc etc/skel/.config/
+kglobalshortcutsrc etc/skel/.config/
+khelpcenterrc etc/skel/.config/
+khotkeysrc etc/skel/.config/
+kinfocenterrc etc/skel/.config/
+kmail2rc etc/skel/.config/
+kmenueditrc etc/skel/.config/
+kmixrc etc/skel/.config/
+konsolerc etc/skel/.config/
+krunnerrc etc/skel/.config/
+kscreenlockerrc etc/skel/.config/
+ksmserverrc etc/skel/.config/
+ksplashrc etc/skel/.config/
+ksysguardrc etc/skel/.config/
+ktimezonedrc etc/skel/.config/
+kwinrc etc/skel/.config/
+kwinrulesrc etc/skel/.config/
+muonrc etc/skel/.config/
+plasma-nm etc/skel/.config/
+plasma-org.kde.plasma.desktop-appletsrc etc/skel/.config/
+plasmarc etc/skel/.config/
+plasmashellrc etc/skel/.config/
+powerdevilrc etc/skel/.config/
+powermanagementprofilesrc etc/skel/.config/
+QtProject.conf etc/skel/.config/
+spectaclerc etc/skel/.config/
+startupconfig etc/skel/.config/
+startupconfigfiles etc/skel/.config/
+startupconfigkeys etc/skel/.config/
+systemsettingsrc etc/skel/.config/
+trashrc etc/skel/.config/
+Trolltech.conf etc/skel/.config/
+webengineurlinterceptoradblockrc etc/skel/.config/
+
+user etc/skel/.config/dconf/
+
+gtkfilechooser.ini etc/skel/.config/gtk-2.0/
+
+kwin_109db1b86c000155672764000000010700001_1557871261_245658 etc/skel/.config/session/
+
+Breeze.colors etc/skel/.kde/share/apps/color-schemes/
+BreezeDark.colors etc/skel/.kde/share/apps/color-schemes/
+ZionReversed.colors etc/skel/.kde/share/apps/color-schemes/
+DVKBuntu.colors etc/skel/.kde/share/apps/color-schemes/
+
+kde/kdeglobals etc/skel/.kde/share/config/
+
+autostart/org.kde.latte-dock.desktop etc/skel/.config/autostart/
+
+kcmfonts etc/skel/.config/

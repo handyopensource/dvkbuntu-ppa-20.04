@@ -1,0 +1,3 @@
+ #!/bin/bash
+ 
+chmod 645 /home/Accueil_local

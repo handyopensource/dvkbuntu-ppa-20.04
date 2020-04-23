@@ -1,0 +1,17 @@
+[kdeglobals][KDE]
+widgetStyle=Breeze
+
+[kdeglobals][General]
+ColorScheme=DVKBuntu
+
+[kdeglobals][Icons]
+Theme=Flat-Remix-Blue-Dark
+
+[plasmarc][Theme]
+name=DVKBUNTU
+
+[kcminputrc][Mouse]
+cursorTheme=breeze_cursors
+
+[Desktop][org.kde.plasma.desktop]
+Containment=org.kde.plasma.folder

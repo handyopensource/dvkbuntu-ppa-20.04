@@ -1,0 +1,20 @@
+DVKBuntuAcceuil opt/dvkbuntu-menu-acceuil/
+Logo.svg opt/dvkbuntu-menu-acceuil/
+Logo.svg usr/share/icons/
+ScaleFactor.sh opt/dvkbuntu-menu-acceuil/
+
+Sound/10-DiscordLink.ogg.wav usr/share/dvkbuntu-sound/
+Sound/11-Email.ogg.wav usr/share/dvkbuntu-sound/
+Sound/12-Shutdown.ogg.wav usr/share/dvkbuntu-sound/
+Sound/13-Reboot.ogg.wav usr/share/dvkbuntu-sound/
+Sound/14-LeaveSession.ogg.wav usr/share/dvkbuntu-sound/
+Sound/1-connexion_session.ogg.wav usr/share/dvkbuntu-sound/
+Sound/2-bouton_reboot.ogg.wav usr/share/dvkbuntu-sound/
+Sound/3-bouton_shutdown.ogg.wav usr/share/dvkbuntu-sound/
+Sound/4-bouton_delog.ogg.wav usr/share/dvkbuntu-sound/
+Sound/5-browser.ogg.wav usr/share/dvkbuntu-sound/
+Sound/6-Kmag.ogg.wav usr/share/dvkbuntu-sound/
+Sound/7-AccesHandicap.ogg.wav usr/share/dvkbuntu-sound/
+Sound/8-SiteWeb.ogg.wav usr/share/dvkbuntu-sound/
+Sound/9-nocomprendo.ogg.wav usr/share/dvkbuntu-sound/
+Sound/20-Stop.wav usr/share/dvkbuntu-sound/

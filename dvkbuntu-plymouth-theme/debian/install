@@ -1,0 +1,15 @@
+DVKbuntu-logo.grub usr/share/plymouth/themes/DVKbuntu-logo/
+DVKbuntu-logo.plymouth usr/share/plymouth/themes/DVKbuntu-logo/
+DVKbuntu-logo.script usr/share/plymouth/themes/DVKbuntu-logo/
+fsck-fade_16bit.png usr/share/plymouth/themes/DVKbuntu-logo/
+fsck-fade.png usr/share/plymouth/themes/DVKbuntu-logo/
+logo_16bit.png usr/share/plymouth/themes/DVKbuntu-logo/
+logo.png usr/share/plymouth/themes/DVKbuntu-logo/
+passw-dialog.png usr/share/plymouth/themes/DVKbuntu-logo/
+progress-fade_16bit.png usr/share/plymouth/themes/DVKbuntu-logo/
+progress-fade.png usr/share/plymouth/themes/DVKbuntu-logo/
+progress-meter_16bit.png usr/share/plymouth/themes/DVKbuntu-logo/
+progress-meter.png usr/share/plymouth/themes/DVKbuntu-logo/
+spinner.png usr/share/plymouth/themes/DVKbuntu-logo/
+test.png usr/share/plymouth/themes/DVKbuntu-logo/
+wallpaper.png usr/share/plymouth/themes/DVKbuntu-logo/

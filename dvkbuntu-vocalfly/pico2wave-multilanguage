@@ -1,0 +1,16 @@
+#!/bin/bash
+
+VOIXLANGUE=$(echo "$2" | cut -f1 -d-)-$(echo "$2" | cut -f2 -d- | tr '[:lower:]' '[:upper:]')
+touch /tmp/test.wav
+
+if [ -f "$3" ];then
+  pico2wave -l $VOIXLANGUE -w $3 "$1"
+else
+ if [ -f "$2" ]; then
+  pico2wave -l $VOIXLANGUE -w /tmp/test.wav "$1"
+  aplay /tmp/test.wav
+ else
+  pico2wave -l fr-FR -w /tmp/test.wav "$1"
+  aplay /tmp/test.wav
+ fi
+fi 

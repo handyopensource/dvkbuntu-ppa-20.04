@@ -1,0 +1,294 @@
+changelog.gz usr/share/doc/ubiquity-slideshow-kubuntu/
+copyright usr/share/doc/ubiquity-slideshow-kubuntu/
+
+slideshow.conf usr/share/ubiquity-slideshow/
+
+00_Welcome.html usr/share/ubiquity-slideshow/slides/
+01_Applications.html usr/share/ubiquity-slideshow/slides/
+02_Accessibility.html usr/share/ubiquity-slideshow/slides/
+03_Get-Help.html usr/share/ubiquity-slideshow/slides/
+04_Get-Involved.html usr/share/ubiquity-slideshow/slides/
+directory.jsonp usr/share/ubiquity-slideshow/slides/
+index.html usr/share/ubiquity-slideshow/slides/
+
+add.png usr/share/ubiquity-slideshow/slides/icons/
+amarok.png usr/share/ubiquity-slideshow/slides/icons/
+applications-games.png usr/share/ubiquity-slideshow/slides/icons/
+applications-multimedia.png usr/share/ubiquity-slideshow/slides/icons/
+discover.png usr/share/ubiquity-slideshow/slides/icons/
+dolphin.png usr/share/ubiquity-slideshow/slides/icons/
+dragonplayer.png usr/share/ubiquity-slideshow/slides/icons/
+dvkbuntu_logo.png usr/share/ubiquity-slideshow/slides/icons/
+dvkbuntu-logo.svg usr/share/ubiquity-slideshow/slides/icons/
+email.png usr/share/ubiquity-slideshow/slides/icons/
+firefox-logo.svg usr/share/ubiquity-slideshow/slides/icons/
+firefox.png usr/share/ubiquity-slideshow/slides/icons/
+internet-web-browser.png usr/share/ubiquity-slideshow/slides/icons/
+kate.svg usr/share/ubiquity-slideshow/slides/icons/
+konqi.png usr/share/ubiquity-slideshow/slides/icons/
+krita.png usr/share/ubiquity-slideshow/slides/icons/
+kubuntu_logo.png usr/share/ubiquity-slideshow/slides/icons/
+kubuntu-logo.svg usr/share/ubiquity-slideshow/slides/icons/
+libreoffice.png usr/share/ubiquity-slideshow/slides/icons/
+libreoffice-writer.png usr/share/ubiquity-slideshow/slides/icons/
+okular.png usr/share/ubiquity-slideshow/slides/icons/
+preferences-desktop-accessibility.png usr/share/ubiquity-slideshow/slides/icons/
+system-help.png usr/share/ubiquity-slideshow/slides/icons/
+system-users.png usr/share/ubiquity-slideshow/slides/icons/
+ubuntu_logo.png usr/share/ubiquity-slideshow/slides/icons/
+vlc.png usr/share/ubiquity-slideshow/slides/icons/
+
+af/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/af/
+
+ar/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/ar/
+
+ast/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/ast/
+
+be/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/be/
+
+bg/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/bg/
+
+bn/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/bn/
+
+bs/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/bs/
+bs/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/bs/
+bs/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/bs/
+
+ca/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/ca/
+ca/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/ca/
+ca/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/ca/
+ca/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/ca/
+ca/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/ca/
+
+ca@valencia/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/ca@valencia/
+
+cs/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/cs/
+cs/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/cs/
+
+csb/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/csb/
+
+cy/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/cy/
+
+da/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/da/
+da/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/da/
+da/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/da/
+da/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/da/
+da/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/da/
+
+de/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/de/
+de/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/de/
+de/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/de/
+de/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/de/
+de/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/de/
+
+el/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/el/
+
+en_AU/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/en_AU/
+en_AU/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/en_AU/
+en_AU/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/en_AU/
+
+en_CA/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/en_CA/
+
+en_GB/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/en_GB/
+en_GB/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/en_GB/
+en_GB/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/en_GB/
+en_GB/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/en_GB/
+en_GB/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/en_GB/
+
+eo/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/eo/
+
+es/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/es/
+es/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/es/
+es/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/es/
+es/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/es/
+es/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/es/
+
+et/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/et/
+
+eu/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/eu/
+
+fi/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/fi/
+fi/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/fi/
+fi/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/fi/
+fi/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/fi/
+fi/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/fi/
+
+fr/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/fr/
+fr/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/fr/
+fr/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/fr/
+fr/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/fr/
+fr/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/fr/
+
+fr_CA/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/fr_CA/
+fr_CA/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/fr_CA/
+fr_CA/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/fr_CA/
+fr_CA/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/fr_CA/
+fr_CA/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/fr_CA/
+
+gd/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/gd/
+
+gl/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/gl/
+gl/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/gl/
+gl/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/gl/
+gl/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/gl/
+gl/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/gl/
+
+he/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/he/
+
+hi/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/hi/
+
+hr/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/hr/
+hr/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/hr/
+hr/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/hr/
+hr/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/hr/
+hr/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/hr/
+
+hu/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/hu/
+
+id/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/id/
+id/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/id/
+id/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/id/
+id/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/id/
+id/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/id/
+
+is/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/is/
+
+it/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/it/
+it/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/it/
+it/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/it/
+it/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/it/
+it/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/it/
+
+ja/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/ja/
+
+km/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/km/
+
+kn/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/kn/
+
+ko/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/ko/
+ko/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/ko/
+ko/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/ko/
+ko/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/ko/
+
+ku/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/ku/
+
+lt/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/lt/
+lt/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/lt/
+lt/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/lt/
+lt/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/lt/
+lt/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/lt/
+
+
+lv/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/lv/
+
+mr/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/mr/
+
+ms/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/ms/
+
+nb/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/nb/
+
+ne/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/ne/
+
+nl/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/nl/
+
+nn/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/nn/
+nn/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/nn/
+nn/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/nn/
+nn/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/nn/
+nn/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/nn/
+
+
+oc/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/oc/
+
+pa/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/pa/
+
+pl/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/pl/
+pl/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/pl/
+pl/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/pl/
+pl/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/pl/
+
+pt/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/pt/
+
+pt_BR/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/pt_BR/
+
+ro/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/ro/
+
+ru/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/ru/
+ru/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/ru/
+ru/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/ru/
+ru/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/ru/
+ru/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/ru/
+
+si/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/si/
+
+sk/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/sk/
+
+sl/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/sl/
+sl/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/sl/
+sl/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/sl/
+sl/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/sl/
+sl/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/sl/
+
+sn/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/sn/
+
+sq/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/sq/
+sq/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/sq/
+sq/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/sq/
+sq/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/sq/
+
+sr/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/sr/
+
+sv/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/sv/
+sv/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/sv/
+sv/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/sv/
+sv/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/sv/
+sv/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/sv/
+
+ta/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/ta/
+
+tg/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/tg/
+
+th/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/th/
+
+tr/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/tr/
+tr/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/tr/
+tr/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/tr/
+tr/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/tr/
+tr/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/tr/
+
+ug/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/ug/
+
+uk/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/uk/
+uk/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/uk/
+uk/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/uk/
+uk/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/uk/
+uk/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/uk/
+
+ur/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/ur/
+
+uz/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/uz/
+
+vi/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/vi/
+
+zh_CN/00_Welcome.html usr/share/ubiquity-slideshow/slides/l10n/zh_CN/
+zh_CN/01_Applications.html usr/share/ubiquity-slideshow/slides/l10n/zh_CN/
+zh_CN/02_Accessibility.html usr/share/ubiquity-slideshow/slides/l10n/zh_CN/
+zh_CN/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/zh_CN/
+zh_CN/04_Get-Involved.html usr/share/ubiquity-slideshow/slides/l10n/zh_CN/
+
+zh_HK/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/zh_HK/
+
+zh_TW/03_Get-Help.html usr/share/ubiquity-slideshow/slides/l10n/zh_TW/
+
+arrow-back.png usr/share/ubiquity-slideshow/slides/link/
+arrow-next.png usr/share/ubiquity-slideshow/slides/link/
+base.css usr/share/ubiquity-slideshow/slides/link/
+bullet-point.png usr/share/ubiquity-slideshow/slides/link/
+bullet-point.rtl.png usr/share/ubiquity-slideshow/slides/link/
+
+base.js usr/share/ubiquity-slideshow/slides/link-core/
+jquery.cycle.all.js usr/share/ubiquity-slideshow/slides/link-core/
+jquery.js usr/share/ubiquity-slideshow/slides/link-core/
+slideshow.js usr/share/ubiquity-slideshow/slides/link-core/
+
+accessibility.png usr/share/ubiquity-slideshow/slides/screenshots/

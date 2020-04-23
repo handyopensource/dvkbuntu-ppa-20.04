@@ -1,0 +1,7 @@
+ #!/bin/bash
+ 
+chmod 645 /home/Accueil_local
+chmod 644 /usr/lib/firefox/browser/extensions/*
+cat << FIN > "/etc/firefox/syspref.js"
+pref("browser.startup.homepage", "/home/Accueil_local/index.html");
+FIN

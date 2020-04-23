@@ -1,0 +1,13 @@
+Source: dvkbuntu-flamme
+Section: misc
+Priority: optional
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://discord.gg/FtsNjjC
+
+Package: dvkbuntu-flamme
+Architecture: any
+Depends: 
+Description: DVKBUNTU Wallpaper Flamme
+ <insert long description, indented with spaces>

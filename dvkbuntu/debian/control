@@ -1,0 +1,13 @@
+Source: dvkbuntu
+Section: misc
+Priority: optional
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://discord.gg/FtsNjjC
+
+Package: dvkbuntu
+Architecture: any
+Depends: dvkbuntu-page-acceuil, dvkbuntu-eclipse, dvkbuntu-flamme, dvkbuntu-logo, dvkbuntu-plasma-theme, dvkbuntu-reglage-chromium, dvkbuntu-sddm-theme, dvkbuntu-kinfocenter, dvkbuntu-etoiles-filantes, dvkbuntu-flammes-dorees, dvkbuntu-fumee-abstraite, dvkbuntu-regard, dvkbuntu-rose-rosee, dvkbuntu-voie-lactee, dvkbuntu-vortex, dvkbuntu-plymouth-theme, dvkbuntu-neon, dvkbuntu-skel, dvkbuntu-luciole-font, dvkbuntu-menu-acceuil, dvkbuntu-fetch, dvkbuntu-plasma-theme-v2, dvkbuntu-gtk-theme
+Description: DVKBUNTU pour installer tous les paquets DVKBUNTU
+ <insert long description, indented with spaces>

@@ -1,0 +1,33 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update
+
+[MainWindow]
+Height 1874=582
+State=AAAA/wAAAAD9AAAAAAAABYQAAAHTAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 3744=1412
+
+[Recent Files]
+File1[$e]=$HOME/Téléchargements/drive-download-20190508T153918Z-001/DVKBuntu-rose-rosee.jpg
+File10[$e]=$HOME/Téléchargements/DVKBuntu-Icone.png
+File2[$e]=$HOME/Bureau/packaging-disco/dvkbuntu-rose-rosee/1280x800.png
+File3[$e]=$HOME/Téléchargements/drive-download-20190508T153918Z-001/DVKBuntu-voie-lactee.jpg
+File4[$e]=$HOME/Bureau/packaging-disco/dvkbuntu-vortex/1638x1024.png
+File5[$e]=$HOME/Bureau/dvkbuntu-ppa-binaire-source/dvkbuntu-logo/1280x1024.png
+File6[$e]=$HOME/Bureau/packaging-disco/dvkbuntu-sddm-theme/preview.png
+File7[$e]=$HOME/Bureau/ISO-disco2/squashfs-root/usr/share/ubiquity-slideshow/slides/screenshots/accessibility.png
+File8[$e]=$HOME/Bureau/ISO-disco2/squashfs-root/usr/share/ubiquity-slideshow/slides/icons/kubuntu_logo.png
+File9[$e]=$HOME/Bureau/ISO-disco3/squashfs-root/usr/share/calamares/branding/default/squid.png
+Name1[$e]=DVKBuntu-rose-rosee.jpg
+Name10[$e]=DVKBuntu-Icone.png
+Name2[$e]=1280x800.png
+Name3[$e]=DVKBuntu-voie-lactee.jpg
+Name4[$e]=1638x1024.png
+Name5[$e]=1280x1024.png
+Name6[$e]=preview.png
+Name7[$e]=accessibility.png
+Name8[$e]=kubuntu_logo.png
+Name9[$e]=squid.png
+
+[SideBar]
+SideBarSplitterSizes=364,1045

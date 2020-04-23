@@ -1,0 +1,13 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>images/DVKBuntu-etoiles-filantes.jpg</file>
+    <file>images/favicon.svg</file>
+    <file>images/Firefox_Logo.svg</file>
+    <file>images/kmag.svg</file>
+    <file>images/Orca.svg</file>
+    <file>images/Discord.svg</file>
+    <file>images/Mail.svg</file>
+    <file>images/Logo.png</file>
+    <file>images/Forum.png</file>
+</qresource>
+</RCC>

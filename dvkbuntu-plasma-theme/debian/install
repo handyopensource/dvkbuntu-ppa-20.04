@@ -1,0 +1,27 @@
+desktoptheme/start.svgz usr/share/plasma/desktoptheme/DVKBUNTU/icons/
+desktoptheme/colors usr/share/plasma/desktoptheme/DVKBUNTU/
+desktoptheme/metadata.desktop usr/share/plasma/desktoptheme/DVKBUNTU/
+
+look-and-feel/org.kde.plasma.desktop-layout.js usr/share/plasma/look-and-feel/DVKBUNTU/contents/layouts/
+look-and-feel/metadata.desktop usr/share/plasma/look-and-feel/DVKBUNTU/
+look-and-feel/fullscreenpreview.jpg usr/share/plasma/look-and-feel/DVKBUNTU/contents/previews/
+look-and-feel/preview.png usr/share/plasma/look-and-feel/DVKBUNTU/contents/previews/
+look-and-feel/defaults usr/share/plasma/look-and-feel/DVKBUNTU/contents/
+look-and-feel/metadata.json usr/share/plasma/look-and-feel/DVKBUNTU/
+look-and-feel/splash.png usr/share/plasma/look-and-feel/DVKBUNTU/contents/previews
+look-and-feel/Splash.qml usr/share/plasma/look-and-feel/DVKBUNTU/contents/splash
+look-and-feel/start-here-kde-animation.svg usr/share/plasma/look-and-feel/DVKBUNTU/contents/splash/images/
+look-and-feel/start-here-kde-logo.svg usr/share/plasma/look-and-feel/DVKBUNTU/contents/splash/images/
+
+layout-templates/layout.js usr/share/plasma/layout-templates/DVKBUNTU/contents/
+layout-templates/metadata.desktop usr/share/plasma/layout-templates/DVKBUNTU/
+layout-templates/metadata.json usr/share/plasma/layout-templates/DVKBUNTU/
+
+kcmfonts etc/
+
+start.svg usr/share/icons/breeze/places/64/
+start.svg usr/share/icons/breeze-dark/places/64/
+
+color-schemes/DVKBuntu.colors usr/share/color-schemes/
+
+grub_wallpaper.tga usr/share/images/grub

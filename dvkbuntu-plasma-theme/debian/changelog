@@ -1,0 +1,47 @@
+dvkbuntu-plasma-theme (4.0-1) focal; urgency=medium
+
+  * Police Luciole par défaut
+
+ -- Paul WOISARD <paulwoisard@gmail.com>  Fri, 10 May 2019 19:45:20 +0200
+ 
+dvkbuntu-plasma-theme (2.17) disco; urgency=medium
+
+  * Menu attaché
+
+ -- Paul WOISARD <paulwoisard@gmail.com>  Fri, 10 May 2019 19:45:20 +0200
+ 
+dvkbuntu-plasma-theme (2.16) disco; urgency=medium
+
+  * Changement de logo
+
+ -- Paul WOISARD <paulwoisard@gmail.com>  Fri, 10 May 2019 19:45:20 +0200
+ 
+dvkbuntu-plasma-theme (2.15) disco; urgency=medium
+
+  * Ré-ajout colorschemes
+
+ -- Paul WOISARD <paulwoisard@gmail.com>  Fri, 10 May 2019 19:45:20 +0200
+ 
+dvkbuntu-plasma-theme (2.14) disco; urgency=medium
+
+  * Ajout colorschemes
+
+ -- Paul WOISARD <paulwoisard@gmail.com>  Fri, 10 May 2019 19:45:20 +0200
+ 
+dvkbuntu-plasma-theme (2.13) disco; urgency=medium
+
+  * Ajout splash screen
+
+ -- Paul WOISARD <paulwoisard@gmail.com>  Fri, 10 May 2019 19:45:20 +0200
+
+dvkbuntu-plasma-theme (2.12-1) disco; urgency=medium
+
+  * Changement Logo Menu
+
+ -- Paul WOISARD <paulwoisard@gmail.com>  Sun, 05 May 2019 21:01:01 +0200
+
+dvkbuntu-plasma-theme (2.10-1) disco; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Paul WOISARD <paulwoisard@gmail.com>  Mon, 22 Apr 2019 14:05:26 +0200

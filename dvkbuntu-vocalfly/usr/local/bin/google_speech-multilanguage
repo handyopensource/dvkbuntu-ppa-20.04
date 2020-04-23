@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ -f "$3" ];then
+ google_speech -l "$2" "$1" -o "$3"
+else
+ if [ -f "$2" ]; then
+  google_speech -l "$2" "$1"
+ else
+  google_speech -l "fr-fr" "$1"
+ fi
+fi 

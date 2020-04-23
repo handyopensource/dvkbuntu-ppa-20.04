@@ -1,0 +1,24 @@
+#!/bin/bash
+
+cat << FIN > "/etc/sddm.conf"
+[Autologin]
+Relogin=false
+Session=
+User=
+
+[General]
+HaltCommand=
+RebootCommand=
+EnableHiDPI=true
+
+[Theme]
+Current=DVKBUNTU
+CursorTheme=breeze_cursors
+
+[Users]
+MaximumUid=60000
+MinimumUid=1000
+
+[X11]
+ServerArguments=-nolisten tcp -dpi 168
+FIN

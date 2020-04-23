@@ -1,0 +1,13 @@
+Source: dvkbuntu-rose-rosee
+Section: misc
+Priority: important
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://discord.gg/FtsNjjC
+
+Package: dvkbuntu-rose-rosee
+Architecture: any
+Depends: 
+Description: DVKBUNTU Wallpaper Rose Rosée
+ <insert long description, indented with spaces>

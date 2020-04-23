@@ -1,0 +1,14 @@
+Source: ubiquity-slideshow-dvkbuntu
+Section: misc
+Priority: important
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://discord.gg/FtsNjjC
+
+Package: ubiquity-slideshow-dvkbuntu
+Replaces: ubiquity-slideshow-kubuntu 
+Architecture: any
+Depends: python3-pyqt5.qtsvg, python3-pyqt5.qtwebkit, python3-pyqt5.qtsvg, python3-pyqt5.qtwebkit
+Description: Ubiquity Slideshow pour DVKBuntu
+ <insert long description, indented with spaces>
