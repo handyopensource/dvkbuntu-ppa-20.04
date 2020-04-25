@@ -19,16 +19,16 @@
 
 import QtQuick 2.1
 import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 2.0 as PlasmaComponents
 
 import org.dvkbuntu.dvkmenulauncher 1.0
 
 AbstractItem {
     id: plasmoidContainer
-    
+
     property Item applet
     iconItem: applet
     text: applet ? applet.title : ""
+
     itemId: applet ? applet.pluginName : ""
     category: applet ? plasmoid.nativeInterface.plasmoidCategory(applet) : "UnknownCategory"
     mainText: applet ? applet.toolTipMainText : ""
@@ -44,7 +44,11 @@ AbstractItem {
             applet.expanded = true;
         }
     }
-    
+    onPressed: {
+        if (mouse.button === Qt.RightButton) {
+            plasmoidContainer.contextMenu(mouse);
+        }
+    }
     onContextMenu: {
         if (applet) {
             plasmoid.nativeInterface.showPlasmoidMenu(applet, 0, plasmoidContainer.hidden ? applet.height : 0);
@@ -64,6 +68,8 @@ AbstractItem {
     }
     Connections {
         target: applet
+        onActivated: plasmoidContainer.activated()
+
         onExpandedChanged: {
             if (expanded) {
                 var oldApplet = root.activeApplet;
@@ -72,6 +78,7 @@ AbstractItem {
                     oldApplet.expanded = false;
                 }
                 dialog.visible = true;
+                plasmoidContainer.activated()
 
             } else if (root.activeApplet === applet) {
                 if (!applet.parent.hidden) {
@@ -81,10 +88,12 @@ AbstractItem {
                 root.activeApplet = null;
             }
         }
-        }
+    }
+    
     QLauncher {
         id: qprocess
     }
+    
     MouseArea {
         id: mouseArea
         anchors.fill: parent
@@ -93,4 +102,5 @@ AbstractItem {
         onExited: qprocess.launch('createWaveFromItem "Stop"');
         onClicked: qprocess.launch('createWaveFromItem "bar notif ouverture"');
     }
+    
 }

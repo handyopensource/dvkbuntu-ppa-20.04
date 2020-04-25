@@ -23,12 +23,12 @@ grep -qF -- "$LINE3" "$FILE" || echo "$LINE3" >> "$FILE"
 FILEOS='/etc/os-release'
 
 sed -i 's/^NAME=.*/NAME=\"DVKBuntu"/g' "$FILEOS"
-sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME=\"DVKBuntu C1.0 Release1 19.10"/g' "$FILEOS"
+sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME=\"DVKBuntu D1.0 Release1 20.04"/g' "$FILEOS"
 
 FILELIBOS='/usr/lib/os-release'
 sed -i 's/^NAME=.*/NAME=\"DVKBuntu"/g' "$FILELIBOS"
-sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME=\"DVKBuntu C1.0 Release1 19.10"/g' "$FILELIBOS"
+sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME=\"DVKBuntu D1.0 Release1 20.04"/g' "$FILELIBOS"
 
 FILELSB='/etc/lsb-release'
 sed -i 's/^DISTRIB_ID=.*/DISTRIB_ID=DVKBuntu/g' "$FILELSB"
-sed -i 's/^DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION=\"DVKBuntu C1.0 Release1 19.10"/g' "$FILELSB"
+sed -i 's/^DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION=\"DVKBuntu D1.0 Release1 20.04"/g' "$FILELSB"

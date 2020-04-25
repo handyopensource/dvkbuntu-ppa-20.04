@@ -17,7 +17,7 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.1
+import QtQuick 2.2
 import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.plasma.components 2.0 as PlasmaComponents
 
@@ -42,15 +42,15 @@ PlasmaCore.ToolTipArea {
     property QtObject model
 
     signal clicked(var mouse)
+    signal pressed(var mouse)
     signal wheel(var wheel)
     signal contextMenu(var mouse)
 
     property bool forcedHidden: plasmoid.configuration.hiddenItems.indexOf(itemId) !== -1
     property bool forcedShown: plasmoid.configuration.showAllItems || plasmoid.configuration.shownItems.indexOf(itemId) !== -1
-    property bool categoryShown: shownCategories.indexOf(category) !== -1;
 
     readonly property int effectiveStatus: {
-        if (!categoryShown || status === PlasmaCore.Types.HiddenStatus) {
+        if (status === PlasmaCore.Types.HiddenStatus) {
             return PlasmaCore.Types.HiddenStatus
         } else if (forcedShown || (!forcedHidden && status !== PlasmaCore.Types.PassiveStatus)) {
             return PlasmaCore.Types.ActiveStatus
@@ -79,7 +79,14 @@ PlasmaCore.ToolTipArea {
 
 //BEGIN CONNECTIONS
 
-    onEffectiveStatusChanged: updateItemVisibility(abstractItem);
+    property int creationId // used for item order tie breaking
+    onEffectiveStatusChanged: updateItemVisibility(abstractItem)
+    onCategoryChanged: updateItemVisibility(abstractItem)
+    onTextChanged: updateItemVisibility(abstractItem)
+    Component.onCompleted: {
+        creationId = root.creationIdCounter++
+        updateItemVisibility(abstractItem)
+    }
 
     onContainsMouseChanged: {
         if (containsMouse) {
@@ -92,11 +99,6 @@ PlasmaCore.ToolTipArea {
         }
     }
 
-    Component.onCompleted: updateItemVisibility(abstractItem);
-
-    //dangerous but needed due how repeater reparents
-    onParentChanged: updateItemVisibility(abstractItem);
-
 //END CONNECTIONS
 
     PulseAnimation {
@@ -105,25 +107,45 @@ PlasmaCore.ToolTipArea {
             abstractItem.status === PlasmaCore.Types.RequiresAttentionStatus ) &&
             units.longDuration > 0
     }
+
+    function activated() {
+        activatedAnimation.start()
+    }
+
+    SequentialAnimation {
+        id: activatedAnimation
+        loops: 1
+
+        ScaleAnimator {
+            target: iconItem
+            from: 1
+            to: 0.5
+            duration: units.shortDuration
+            easing.type: Easing.InQuad
+        }
+
+        ScaleAnimator {
+            target: iconItem
+            from: 0.5
+            to: 1
+            duration: units.shortDuration
+            easing.type: Easing.OutQuad
+        }
+    }
     
     QLauncher {
         id: qprocess
     }
     
     MouseArea {
-        id: mouseArea
         anchors.fill: abstractItem
         hoverEnabled: true
         drag.filterChildren: true
-        //onEntered: qprocess.launch('createWaveFromItem "bar notif ' + label.text + '"');
-        //onExited: qprocess.launch('createWaveFromItem "Stop"');
         acceptedButtons: Qt.LeftButton | Qt.MiddleButton | Qt.RightButton
         onClicked: abstractItem.clicked(mouse)
         onPressed: {
             abstractItem.hideToolTip()
-            if (mouse.button === Qt.RightButton) {
-                abstractItem.contextMenu(mouse)
-            }
+            abstractItem.pressed(mouse)
         }
         onPressAndHold: {
             abstractItem.contextMenu(mouse)

@@ -8,7 +8,7 @@ distro="DVKBuntu"
 
 startline="0"
 fulloutput=("${c4}              ..',,;;,,..                 "${labelcolor}${USER}"${textcolor}"@"${labelcolor}$(hostname -f)" 
-"${c4}          ..,;;;;;;;;;;;;;,'."${c6}".            ${labelcolor}OS: ${textcolor}DVKBuntu 19.10 eoan"
+"${c4}          ..,;;;;;;;;;;;;;,'."${c6}".            ${labelcolor}OS: ${textcolor}DVKBuntu 20.04 focal"
 "${c4}       .,;;;;;;cdkk:;;;;;;;;;;;'"${c6}".        ${mykernel}"
 "${c4}     ':;;;;;;;;o"${c6}"M"${c4}"Xd;.,;;;o"${c5}"KK"${c4}"kc;;;,.      ${myuptime}"
 "${c4}   .:;;;lkl$;;;;;O.   .xx"${c5}"X"${c6}"MMMM"${c4}"d;;;;;'    ${myshell}"

@@ -78,7 +78,7 @@ class UbiquityUI(QtWidgets.QMainWindow):
         signal.siginterrupt(signal.SIGCHLD, False)
 
         distro_name = "DVKbuntu"
-        distro_release = "19.10"
+        distro_release = "D1.0-20.04"
 
         # # setup the release and codename
         with open("/etc/lsb-release", 'r') as fp:
@@ -88,7 +88,7 @@ class UbiquityUI(QtWidgets.QMainWindow):
                     if name.startswith('"') and name.endswith('"'):
                         name = name[1:-1]
                     if name != "Ubuntu":
-                        distro_name = distro_name
+                        distro_name = name
                 elif "DISTRIB_RELEASE=" in line:
                     distro_release = str.strip(line.split("=")[1], '\n')
                     if distro_release.startswith('"') and \
@@ -307,6 +307,7 @@ class Wizard(BaseFrontend):
         self.installing_no_return = False
         self.partitioned = False
         self.timezone_set = False
+        self.ubuntu_drivers = None
         self.returncode = 0
         self.backup = False
         self.history = []
@@ -555,7 +556,7 @@ class Wizard(BaseFrontend):
                     quitText = self.get_string(
                         'ubiquity/finished_restart_only')
                 quitText = quitText.replace(
-                    '${RELEASE}', "DVKbuntu")
+                    '${RELEASE}', "DVKBuntu")
                 messageBox = QtWidgets.QMessageBox(
                     QtWidgets.QMessageBox.Question, titleText,
                     quitText, QtWidgets.QMessageBox.NoButton, self.ui)
