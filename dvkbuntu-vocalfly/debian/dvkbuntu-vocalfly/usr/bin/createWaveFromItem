@@ -1,0 +1,24 @@
+#!/bin/bash
+
+tts() {
+ /etc/alternatives/tts "$1" "$2" "$3"
+}
+
+VOCALFLY=true
+
+if [[ "$VOCALFLY" == true ]]; then
+ mkdir -p "$HOME/.local/share/dvkbuntu/"
+ BCP47=$(printf $LANG | cut -d'.' -f1 | sed -e 's/_/-/g' | tr '[:upper:]' '[:lower:]')
+ tts "$1" "$BCP47" "$HOME/.local/share/dvkbuntu/sonEnCours.wav"
+ if [ $? -ne 0 ]
+ then
+  BCP47=$(printf "$BCP47" | cut -d'-' -f1)
+  tts "$1" "$BCP47" "$HOME/.local/share/dvkbuntu/sonEnCours.wav"
+ fi
+ if [ $? -ne 0 ]
+ then
+  tts "$1" "en" "$HOME/.local/share/dvkbuntu/sonEnCours.wav"
+ fi
+else
+ tts "              " "fr-fr" "$HOME/.local/share/dvkbuntu/sonEnCours.wav"
+fi

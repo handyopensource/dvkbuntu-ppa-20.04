@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ -f "$3" ];then
+  espeak-ng -v "$2" "$1" -w "$3"
+else
+ if [ -f "$2" ]; then
+  espeak-ng -v "$2" "$1"
+ else
+  espeak-ng -v "fr-fr" "$1"
+ fi
+fi 

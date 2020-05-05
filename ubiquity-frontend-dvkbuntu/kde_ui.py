@@ -52,6 +52,99 @@ from ubiquity.plugin import Plugin
 from ubiquity.qtwidgets import SquareSvgWidget
 import ubiquity.progressposition
 
+#####################################################
+## Debut d'un entete experimental implémantant une
+## lecture à voie haute du texte de certains widgets
+#####################################################
+
+# si vous supprimez cet entete ou voulez le modifier
+# n'oubliez pas la ligne signalée dans la fonction 
+# Wizard.translate_pages aux allentours de la ligne 770
+
+import subprocess
+import time
+
+
+def synthetiser(text):
+    global synth
+    if text == synth.text : return
+    while synth.isRunning():
+        if synth.process is not None:
+            synth.process.kill()
+        time.sleep(0.1)
+    synth.text = text
+    synth.start()
+
+class Synthetiseur(QtCore.QThread):
+    aviableLang = ['en-US', 'en-GB', 'fr-FR', 'es-ES', 'de-DE', 'it-IT']
+    def __init__(self, text):
+        QtCore.QThread.__init__(self)
+        self.text = text
+        self.tmptext = ""
+        self.lang = None
+        self.process = None
+
+    def run(self):
+        nonacceptedchars = "&<~"
+        t = " "
+        i = 0
+        while i < len(self.text):
+            c = self.text[i]
+            if c not in nonacceptedchars:
+                t += c
+            elif c == '<':
+                if '>' in self.text[i::]:
+                    while self.text[i] != '>' : i += 1
+                else :
+                    t += c
+            elif t[-1] != ' ':
+                t += ' '
+            i += 1
+        t = t[1::]
+        if self.lang not in Synthetiseur.aviableLang :
+            self.lang = os.environ['LANG'].split('.')[0].replace('_','-')
+        if self.lang not in Synthetiseur.aviableLang : return
+        self.process = subprocess.Popen(['/usr/bin/pico2wave', '-l', self.lang, '-w', '/tmp/test2.wav', '"' + t + '"']) # creation du wave
+        ret = self.process.wait()
+        if ret != 0: return
+        self.process = subprocess.Popen(['/usr/bin/aplay', '/tmp/test2.wav']) # lecture du wave
+        self.process.wait()
+        self.text = ""
+    
+    def setLang(self, lang):
+        if type(lang) is not str:
+            return
+        for Lang in Synthetiseur.aviableLang:
+            if Lang[0:len(lang)] == lang:
+                self.lang = Lang
+                return
+
+synth = Synthetiseur("")
+
+classesAVocaliser = [QtWidgets.QPushButton, QtWidgets.QLabel, QtWidgets.QRadioButton, QtWidgets.QCheckBox, QtWidgets.QToolButton, QtWidgets.QLineEdit]
+
+for i, classe in enumerate(classesAVocaliser):
+    class tmp(classe):
+        def enterEvent(self, event):
+            classe.enterEvent(classe(self), event)
+            text = str(self.text())
+            synthetiser(text)
+
+    classesAVocaliser[i] = tmp
+
+
+QtWidgets.QPushButton, QtWidgets.QLabel, QtWidgets.QRadioButton, QtWidgets.QCheckBox, QtWidgets.QToolButton, QtWidgets.QLineEdit = classesAVocaliser
+
+oldQComboBox = QtWidgets.QComboBox
+class tmp(oldQComboBox):
+    def enterEvent(self, event):
+        oldQComboBox.enterEvent(self, event)
+        self.currentTextChanged.connect(synthetiser)
+        synthetiser(self.currentText())
+QtWidgets.QComboBox = tmp
+del tmp
+
+#### Fin de l'entete experimental
 
 # Define global path
 PATH = '/usr/share/ubiquity'
@@ -437,6 +530,7 @@ class Wizard(BaseFrontend):
         """run the interface."""
 
         if os.getuid() != 0:
+            synth.mute = False
             title = ('This installer must be run with administrative '
                      'privileges, and cannot continue without them.')
             QtWidgets.QMessageBox.critical(self.ui, "Must be root", title)
@@ -675,6 +769,7 @@ class Wizard(BaseFrontend):
 
     def translate_pages(self, lang=None, just_current=True, not_current=False,
                         reget=False):
+        synth.setLang(lang) ###################### Cette ligne fait partie des modification pour la vocalisation ! ############################
         current_page = self.pages[self.pagesindex]
         if just_current:
             pages = [self.pages[self.pagesindex]]
@@ -1072,7 +1167,7 @@ class Wizard(BaseFrontend):
         """Callback to control the installation process between steps."""
         if not self.allowed_change_step or not self.allowed_go_forward:
             return
-
+        
         self.allow_change_step(False)
 
         if self.dbfilter is not None:

@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[fr_FR]=Configuration du service VocalFly
+Comment=VocalFly service settings
+Exec=/usr/bin/VocalFly
+GenericName[fr_FR]=Configuration du service VocalFly
+GenericName=VocalFly service settings
+Icon=/usr/share/icons/vocalflyicon.png
+MimeType=
+Name[fr_FR]=VocalFly
+Name=VocalFly
+Path=/usr/bin
+Categories=Utility;
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

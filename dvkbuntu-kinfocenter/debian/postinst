@@ -245,7 +245,7 @@ cat << FIN > "/usr/share/kubuntu-default-settings/kf5-settings/kcm-about-distror
 [General]
 LogoPath=/usr/share/kubuntu-default-settings/Icone.png
 Website=https://www.dvkbuntu.org/
-Name=DVKBUNTU D1.0 Release1
+Name=DVKBUNTU D2.0 Release1
 Variant=Développeurs : @Paullux - @Jacky - @Yo_man - @｟Ad͢͢͢n｠- @Toulibre - @chris2228
 FIN
 
@@ -253,7 +253,7 @@ cat << FIN > "/etc/xdg/kcm-about-distrorc"
 [General]
 LogoPath=/usr/share/kubuntu-default-settings/Icone.png
 Website=https://www.dvkbuntu.org/
-Name=DVKBUNTU D1.0 Release1
+Name=DVKBUNTU D2.0 Release1
 Variant=Développeurs : @Paullux - @Jacky - @Yo_man - @｟Ad͢͢͢n｠- @Toulibre - @chris2228
 FIN
 

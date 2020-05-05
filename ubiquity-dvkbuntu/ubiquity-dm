@@ -785,6 +785,7 @@ EndSection
                 elif self.frontend == 'kde_ui':
                     cmd = ['kdialog', '--title=%s' % title,
                            '--msgbox=%s' % message]
+                    subprocess.call(['/usr/bin/createWaveFromItem', title, message])
                     subprocess.call(cmd)
                 else:
                     # Not ideal, but if we cannot let the user know what's

@@ -1,0 +1,13 @@
+Package: dvkbuntu-vocalfly-dbgsym
+Package-Type: ddeb
+Source: dvkbuntu-vocalfly
+Version: 4.1-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Installed-Size: 54
+Depends: dvkbuntu-vocalfly (= 4.1-1)
+Section: debug
+Priority: optional
+Description: debug symbols for dvkbuntu-vocalfly
+Build-Ids: 81c5d441b1c1b2498110e052aadd611258c90b9a b81bbe2de5cde2b53202f07d76cf4524b9f69a45
