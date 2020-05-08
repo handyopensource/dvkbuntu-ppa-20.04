@@ -1,7 +1,7 @@
-DVKBuntuAcceuil opt/dvkbuntu-menu-acceuil/
-Logo.svg opt/dvkbuntu-menu-acceuil/
+DVKBuntuAccueil opt/dvkbuntu-menu-accueil/
+Logo.svg opt/dvkbuntu-menu-accueil/
 Logo.svg usr/share/icons/
-ScaleFactor.sh opt/dvkbuntu-menu-acceuil/
+ScaleFactor.sh opt/dvkbuntu-menu-accueil/
 
 Sound/10-DiscordLink.ogg.wav usr/share/dvkbuntu-sound/
 Sound/11-Email.ogg.wav usr/share/dvkbuntu-sound/

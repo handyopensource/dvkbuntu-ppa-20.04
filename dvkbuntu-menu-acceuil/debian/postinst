@@ -1,16 +1,22 @@
  #!/bin/bash
- 
-cat << FIN > "/usr/share/applications/DVKBuntuMenuAcceuil.desktop"
+
+FILE="/usr/share/applications/DVKBuntuMenuAcceuil.desktop"
+
+if [ -f "$FILE" ]; then
+    rm "$FILE"
+fi
+
+cat << FIN > "/usr/share/applications/DVKBuntuMenuAccueil.desktop"
 [Desktop Entry]
 Comment[fr_FR]=Raccourci Sympa à l'ouverture de session
 Comment=Raccourci Sympa à l'ouverture de session
-Exec=/opt/dvkbuntu-menu-acceuil/DVKBuntuAcceuil
-GenericName[fr_FR]=Menu d'Acceuil au Démarrage
-GenericName=Menu d'Acceuil au Démarrage
+Exec=/opt/dvkbuntu-menu-accueil/DVKBuntuAccueil
+GenericName[fr_FR]=Menu d'Accueil au Démarrage
+GenericName=Menu d'Accueil au Démarrage
 Icon=Logo.svg
 MimeType=
-Name[fr_FR]=DVKBuntu Menu Acceuil
-Name=DVKBuntu Menu Acceuil
+Name[fr_FR]=DVKBuntu Menu Accueil
+Name=DVKBuntu Menu Accueil
 NoDisplay=false
 Path=
 Categories=Utility;
@@ -24,15 +30,21 @@ X-KDE-SubstituteUID=false
 X-KDE-Username=
 FIN
 
-cat << FIN > "/etc/skel/.config/DVKBuntuMenuAcceuil.desktop"
+FILE="/etc/skel/.config/DVKBuntuMenuAcceuil.desktop"
+
+if [ -f "$FILE" ]; then
+    rm "$FILE"
+fi
+
+cat << FIN > "/etc/skel/.config/DVKBuntuMenuAccueil.desktop"
 [Desktop Entry]
-Exec=/opt/dvkbuntu-menu-acceuil/DVKBuntuAcceuil
-GenericName[fr_FR]=Menu d'Acceuil au Démarrage
-GenericName=Menu d'Acceuil au Démarrage
+Exec=/opt/dvkbuntu-menu-accueil/DVKBuntuAccueil
+GenericName[fr_FR]=Menu d'Accueil au Démarrage
+GenericName=Menu d'Accueil au Démarrage
 Icon=Logo.svg
 MimeType=
-Name[fr_FR]=DVKBuntu Menu Acceuil
-Name=DVKBuntu Menu Acceuil
+Name[fr_FR]=DVKBuntu Menu Accueil
+Name=DVKBuntu Menu Accueil
 NoDisplay=false
 Path=
 Categories=Utility;
@@ -46,17 +58,23 @@ X-KDE-SubstituteUID=false
 X-KDE-Username=
 FIN
 
-cat << FIN > "/etc/xdg/autostart/DVKBuntuMenuAcceuil.desktop"
+FILE="/etc/xdg/autostart/DVKBuntuMenuAcceuil.desktop"
+
+if [ -f "$FILE" ]; then
+    rm "$FILE"
+fi
+
+cat << FIN > "/etc/xdg/autostart/DVKBuntuMenuAccueil.desktop"
 [Desktop Entry]
 Comment[fr_FR]=Raccourci Sympa à l'ouverture de session
 Comment=Raccourci Sympa à l'ouverture de session
-Exec=/opt/dvkbuntu-menu-acceuil/DVKBuntuAcceuil
-GenericName[fr_FR]=Menu d'Acceuil au Démarrage
-GenericName=Menu d'Acceuil au Démarrage
+Exec=/opt/dvkbuntu-menu-accueil/DVKBuntuAccueil
+GenericName[fr_FR]=Menu d'Accueil au Démarrage
+GenericName=Menu d'Accueil au Démarrage
 Icon=Logo.svg
 MimeType=
-Name[fr_FR]=DVKBuntu Menu Acceuil
-Name=DVKBuntu Menu Acceuil
+Name[fr_FR]=DVKBuntu Menu Accueil
+Name=DVKBuntu Menu Accueil
 NoDisplay=false
 Path=
 Categories=Utility;
@@ -70,4 +88,4 @@ X-KDE-SubstituteUID=false
 X-KDE-Username=
 FIN
 
-chmod 777 /opt/dvkbuntu-menu-acceuil/ScaleFactor.sh
+chmod 777 /opt/dvkbuntu-menu-accueil/ScaleFactor.sh

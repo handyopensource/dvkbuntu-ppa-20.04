@@ -35,7 +35,7 @@ kickoff.writeConfig("icon", "Logo.svg")
 //panel.addWidget("org.kde.plasma.showActivityManager")
 
 var quicklaunch = panel.addWidget("org.kde.plasma.quicklaunch");
-var qlurls = [ "file:///usr/share/applications/DVKBuntuMenuAcceuil.desktop" ];
+var qlurls = [ "file:///usr/share/applications/DVKBuntuMenuAccueil.desktop" ];
 quicklaunch.currentConfigGroup = ["General"];
 quicklaunch.writeConfig("launcherUrls", qlurls);
 
