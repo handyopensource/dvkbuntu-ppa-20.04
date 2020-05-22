@@ -1,7 +1,7 @@
 #!/bin/bash
 
-Texte1='    property int itemSize\: units\.roundToIconSize\(Math\.\min\(Math\.min\(width, height\), units\.iconSizes\.enormous\)\)'
-Texte2='    property int hiddenItemSize\: units\.iconSizes\.enormous'
+Texte1='    readonly property int itemSize\: units\.roundToIconSize\(Math\.\min\(Math\.min\(width, height\), units\.iconSizes\.enormous\)\)'
+Texte2='    property int hiddenItemSize\: units\.iconSizes\.large'
 file=/usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/main.qml
 sed -i "s/^.*property int itemSize.*/$Texte1/g" $file
 sed -i "s/^.*property int hiddenItemSize.*/$Texte2/g" $file
