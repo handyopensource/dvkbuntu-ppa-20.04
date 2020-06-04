@@ -1,3 +1,0 @@
-#!/bin/bash
-
-rm -rf /usr/local/bin/google_speech-multilanguage
