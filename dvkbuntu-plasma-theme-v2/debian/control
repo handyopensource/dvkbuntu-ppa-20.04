@@ -1,0 +1,14 @@
+Source: dvkbuntu-plasma-theme-v2
+Section: misc
+Priority: optional
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://discord.gg/FtsNjjC
+
+Package: dvkbuntu-plasma-theme-v2
+Architecture: any
+Depends: kubuntu-desktop, dvkbuntu-menu-acceuil, grub2-splashimages, latte-dock, dvkbuntu-vocalfly
+Replaces: latte-dock, dvkbuntu-plasma-theme
+Description: DVKBUNTU Plasma theme Version 2
+ <insert long description, indented with spaces>

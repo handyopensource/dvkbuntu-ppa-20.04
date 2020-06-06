@@ -1,0 +1,18 @@
+#!/bin/bash
+
+Texte1='    readonly property int itemSize\: units\.roundToIconSize\(Math\.\min\(Math\.min\(width, height\), units\.iconSizes\.enormous\)\)'
+Texte2='    property int hiddenItemSize\: units\.iconSizes\.large'
+file=/usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/main.qml
+sed -i "s/^.*property int itemSize.*/$Texte1/g" $file
+sed -i "s/^.*property int hiddenItemSize.*/$Texte2/g" $file
+cp /usr/share/icons/breeze/places/64/start.svg /usr/share/icons/breeze/places/64/start-here-kde.svg
+cp /usr/share/icons/breeze-dark/places/64/start.svg /usr/share/icons/breeze-dark/places/64/start-here-kde.svg
+
+FILE="/etc/default/grub"
+LINE1='# Wallpapper Grub'
+LINE2='GRUB_BACKGROUND="/usr/share/images/grub/grub_wallpaper.tga"'
+
+grep -qF -- "$LINE1" "$FILE" || echo "$LINE1" >> "$FILE"
+grep -qF -- "$LINE2" "$FILE" || echo "$LINE2" >> "$FILE"
+
+update-grub
