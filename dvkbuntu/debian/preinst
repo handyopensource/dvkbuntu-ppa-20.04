@@ -6,7 +6,7 @@ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-ke
 apt update
 fi
 if [ ! -f /etc/apt/sources.list.d/flat-remix.list ]; then
-echo 'deb http://ppa.launchpad.net/daniruiz/flat-remix/ubuntu eoan main ' | tee /etc/apt/sources.list.d/flat-remix.list
+echo 'deb http://ppa.launchpad.net/daniruiz/flat-remix/ubuntu focal main ' | tee /etc/apt/sources.list.d/flat-remix.list
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA309D7C0CBE9A2DF584AC50A074F0583066C9C9
 apt update
 fi
