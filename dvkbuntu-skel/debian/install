@@ -42,7 +42,6 @@ kwinrc etc/skel/.config/
 kwinrulesrc etc/skel/.config/
 muonrc etc/skel/.config/
 plasma-nm etc/skel/.config/
-plasma-org.kde.plasma.desktop-appletsrc etc/skel/.config/
 plasmarc etc/skel/.config/
 plasmashellrc etc/skel/.config/
 powerdevilrc etc/skel/.config/

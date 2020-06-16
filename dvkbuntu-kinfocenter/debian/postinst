@@ -246,7 +246,7 @@ cat << FIN > "/usr/share/kubuntu-default-settings/kf5-settings/kcm-about-distror
 LogoPath=/usr/share/kubuntu-default-settings/Icone.png
 Website=https://www.dvkbuntu.org/
 Name=DVKBUNTU D2.0 Release1
-Variant=Développeurs : @Paullux - @Jacky - @Yo_man - @｟Ad͢͢͢n｠- @Toulibre - @chris2228
+Variant=Développeurs : HandyOS
 FIN
 
 cat << FIN > "/etc/xdg/kcm-about-distrorc"
@@ -254,7 +254,7 @@ cat << FIN > "/etc/xdg/kcm-about-distrorc"
 LogoPath=/usr/share/kubuntu-default-settings/Icone.png
 Website=https://www.dvkbuntu.org/
 Name=DVKBUNTU D2.0 Release1
-Variant=Développeurs : @Paullux - @Jacky - @Yo_man - @｟Ad͢͢͢n｠- @Toulibre - @chris2228
+Variant=Développeurs : HandyOS
 FIN
 
 cp /etc/skel/face /etc/skel/.face
