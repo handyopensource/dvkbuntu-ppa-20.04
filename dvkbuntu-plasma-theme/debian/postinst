@@ -15,4 +15,4 @@ LINE2='GRUB_BACKGROUND="/usr/share/images/grub/grub_wallpaper.tga"'
 grep -qF -- "$LINE1" "$FILE" || echo "$LINE1" >> "$FILE"
 grep -qF -- "$LINE2" "$FILE" || echo "$LINE2" >> "$FILE"
 
-update-grub
+#update-grub
