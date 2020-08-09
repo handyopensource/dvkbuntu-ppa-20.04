@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# rm space
+mv '/opt/Easy menu' '/opt/Easymenu'

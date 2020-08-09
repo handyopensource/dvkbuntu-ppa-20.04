@@ -172,3 +172,5 @@ org.kde.plasma.digitalclock2/contents/ui/MonthMenu.qml usr/share/plasma/plasmoid
 org.kde.plasma.digitalclock2/contents/ui/Tooltip.qml usr/share/plasma/plasmoids/org.kde.plasma.digitalclock2/contents/ui/
 
 Digit.ttf usr/share/fonts/
+
+ksplashrc etc/skel/.config/

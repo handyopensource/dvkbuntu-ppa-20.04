@@ -70,22 +70,22 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration/Configuration/Configuration/Configuration/Configuration/Configuration/General": {
-                            "launcherUrls": "file:///usr/share/applications/DVKBuntuMenuAccueil.desktop"
+                            "launcherUrls": "file:///usr/share/applications/dvkbuntu-easy-menu.desktop"
                         },
                         "/Configuration/Configuration/Configuration/Configuration/Configuration/General": {
-                            "launcherUrls": "file:///usr/share/applications/DVKBuntuMenuAccueil.desktop"
+                            "launcherUrls": "file:///usr/share/applications/dvkbuntu-easy-menu.desktop"
                         },
                         "/Configuration/Configuration/Configuration/Configuration/General": {
-                            "launcherUrls": "file:///usr/share/applications/DVKBuntuMenuAccueil.desktop"
+                            "launcherUrls": "file:///usr/share/applications/dvkbuntu-easy-menu.desktop"
                         },
                         "/Configuration/Configuration/Configuration/General": {
-                            "launcherUrls": "file:///usr/share/applications/DVKBuntuMenuAccueil.desktop"
+                            "launcherUrls": "file:///usr/share/applications/dvkbuntu-easy-menu.desktop"
                         },
                         "/Configuration/Configuration/General": {
-                            "launcherUrls": "file:///usr/share/applications/DVKBuntuMenuAccueil.desktop"
+                            "launcherUrls": "file:///usr/share/applications/dvkbuntu-easy-menu.desktop"
                         },
                         "/Configuration/General": {
-                            "launcherUrls": "file:///usr/share/applications/DVKBuntuMenuAccueil.desktop"
+                            "launcherUrls": "file:///usr/share/applications/dvkbuntu-easy-menu.desktop"
                         }
                     },
                     "plugin": "org.kde.plasma.quicklaunch"

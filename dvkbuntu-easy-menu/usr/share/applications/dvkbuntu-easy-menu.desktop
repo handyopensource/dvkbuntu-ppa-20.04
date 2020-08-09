@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Easy menu
+Exec=GDK_DPI_SCALE=0.6 "/opt/Easy menu/dvkbuntu-easy-menu" %U
+Terminal=false
+Type=Application
+Icon=dvkbuntu-easy-menu
+StartupWMClass=Easy menu
+Comment=Easy menu est un menu aillant pour but de simplifier l’ensemble des usages classiques d’un ordinateur pour les personne aillant des difficulté avec l’informatique.
+Categories=Utility;

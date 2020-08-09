@@ -28,3 +28,25 @@ File=/etc/skel/.config/plasma-org.kde.plasma.desktop-appletsrc
 if [ -f "$File" ]; then
     rm "$File"
 fi
+
+FILEOS='/etc/os-release'
+sed -i 's/^NAME=.*/NAME=\"DVKBuntuLight"/g' "$FILEOS"
+sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME=\"DVKBuntuLight D1.0 alpha 20.04"/g' "$FILEOS"
+
+FILELIBOS='/usr/lib/os-release'
+sed -i 's/^NAME=.*/NAME=\"DVKBuntu"/g' "$FILELIBOS"
+sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME=\"DVKBuntuLight D1.0 alpha 20.04"/g' "$FILELIBOS"
+
+FILELSB='/etc/lsb-release'
+sed -i 's/^DISTRIB_ID=.*/DISTRIB_ID=DVKBuntu/g' "$FILELSB"
+sed -i 's/^DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION=\"DVKBuntuLight D1.0 alpha 20.04"/g' "$FILELSB"
+
+FILEDESKTOPAuto1='/etc/skel/.config/autostart/dvkbuntu-easy-menu.desktop'
+if [ ! -f $FILEDESKTOPAuto1 ]; then
+    cp /usr/share/applications/dvkbuntu-easy-menu.desktop /etc/skel/.config/autostart/
+fi
+
+FILEDESKTOPAuto2='/etc/skel/.config/autostart/DVKBuntuMenuAccueil.desktop'
+if [ -f "$FILEDESKTOPAuto2" ]; then
+    rm "$FILEDESKTOPAuto2"
+fi

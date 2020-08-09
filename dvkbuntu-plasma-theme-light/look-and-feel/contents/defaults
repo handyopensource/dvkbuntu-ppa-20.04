@@ -1,5 +1,6 @@
 [Autostart] 
-Services=org.kde.latte-dock 
+Services=org.kde.latte-dock
+Services=dvkbuntu-easy-menu
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
