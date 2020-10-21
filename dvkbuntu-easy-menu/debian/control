@@ -1,13 +1,13 @@
 Source: dvkbuntu-easy-menu
 Section: misc
 Priority: extra
-Maintainer: Joey JEANTET <jeantetjoey.pro@gmail.com>
-Build-Depends: debhelper (>= 11), libx11-6, libxcb1, libx11-xcb1, libxcb-dri3-0, libxcomposite1, libxcursor1, libxdamage1, libxext6, libxfixes3, libxi6, libxrender1, libxtst6, libnss3, libnspr4, libatk1.0-0, libatk-bridge2.0-0, libdbus-1-3, libgdk-pixbuf2.0-0, libgtk-3-0, libpangocairo-1.0-0, libpango-1.0-0, libcairo2, libxrandr2, libexpat1, libdrm2, libgbm1, libxss1, libasound2, libatspi2.0-0, libcups2
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Build-Depends: debhelper (>= 11), libqt5multimedia5, libqt5qml5, libqt5core5a, libqt5widgets5, libqt5webenginewidgets5
 Standards-Version: 4.1.3
-Homepage: https://github.com/handyopensource/dvkbuntu-easy-menu
+Homepage: https://github.com/handyopensource/dvkbuntu-easy-menu-qt
 
 Package: dvkbuntu-easy-menu
 Architecture: any
-Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
+Depends: kubuntu-desktop, dvkbuntu-menu-acceuil, latte-dock, dvkbuntu-plasma-theme-v2, libqt5multimedia5, libqt5qml5, libqt5core5a, libqt5widgets5, espeak-ng, dvkbuntu-gtk-theme, libqt5widgets5, python3-pip, libttspico-utils, alsa-utils, libqt5webenginewidgets5
 Description: 
-  Easy menu est un menu aillant pour but de simplifier l’ensemble des usages classiques d’un ordinateur pour les personne aillant des difficulté avec l’informatique.
+  Easy menu est un menu ayant pour but de simplifier l’ensemble des usages classiques d’un ordinateur pour les personne rencontrant des difficultés avec l’informatique.

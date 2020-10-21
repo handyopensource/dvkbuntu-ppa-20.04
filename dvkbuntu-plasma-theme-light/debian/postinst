@@ -50,3 +50,15 @@ FILEDESKTOPAuto2='/etc/skel/.config/autostart/DVKBuntuMenuAccueil.desktop'
 if [ -f "$FILEDESKTOPAuto2" ]; then
     rm "$FILEDESKTOPAuto2"
 fi
+
+FILE="/etc/skel/.config/DVKBuntuMenuAccueil.desktop"
+
+if [ -f "$FILE" ]; then
+    rm "$FILE"
+fi
+
+FILE="/etc/xdg/autostart/DVKBuntuMenuAccueil.desktop"
+
+if [ -f "$FILE" ]; then
+    rm "$FILE"
+fi

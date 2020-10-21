@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Easy menu
-Exec="/usr/bin/dvkbuntu-easy-menu-qt" %U
+Exec="/usr/share/dvkbuntu-easy-menu-qt" %U
 Terminal=false
 Type=Application
 Icon=dvkbuntu-easy-menu
