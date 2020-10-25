@@ -31,15 +31,15 @@ fi
 
 FILEOS='/etc/os-release'
 sed -i 's/^NAME=.*/NAME=\"DVKBuntuLight"/g' "$FILEOS"
-sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME=\"DVKBuntuLight D1.0 alpha 20.04"/g' "$FILEOS"
+sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME=\"DVKBuntuLight D1.0 20.04"/g' "$FILEOS"
 
 FILELIBOS='/usr/lib/os-release'
 sed -i 's/^NAME=.*/NAME=\"DVKBuntu"/g' "$FILELIBOS"
-sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME=\"DVKBuntuLight D1.0 alpha 20.04"/g' "$FILELIBOS"
+sed -i 's/^PRETTY_NAME=.*/PRETTY_NAME=\"DVKBuntuLight D1.0 20.04"/g' "$FILELIBOS"
 
 FILELSB='/etc/lsb-release'
 sed -i 's/^DISTRIB_ID=.*/DISTRIB_ID=DVKBuntu/g' "$FILELSB"
-sed -i 's/^DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION=\"DVKBuntuLight D1.0 alpha 20.04"/g' "$FILELSB"
+sed -i 's/^DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION=\"DVKBuntuLight D1.0 20.04"/g' "$FILELSB"
 
 FILEDESKTOPAuto1='/etc/skel/.config/autostart/dvkbuntu-easy-menu.desktop'
 if [ ! -f $FILEDESKTOPAuto1 ]; then
