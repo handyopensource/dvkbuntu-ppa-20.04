@@ -2,12 +2,12 @@ Source: dvkbuntu-easy-menu
 Section: misc
 Priority: extra
 Maintainer: Paul WOISARD <paulwoisard@gmail.com>
-Build-Depends: debhelper (>= 11), libqt5multimedia5, libqt5qml5, libqt5core5a, libqt5widgets5, libqt5webenginewidgets5
+Build-Depends: debhelper (>= 11), libqt5multimedia5, libqt5qml5, libqt5core5a, libqt5widgets5, libqt5webenginewidgets5, libqt5gui5, libstdc++6, libc6, qtmultimedia5-dev, libqt5multimediawidgets5, libqt5multimedia5-plugins
 Standards-Version: 4.1.3
 Homepage: https://github.com/handyopensource/dvkbuntu-easy-menu-qt
 
 Package: dvkbuntu-easy-menu
 Architecture: any
-Depends: kubuntu-desktop, dvkbuntu-menu-acceuil, latte-dock, dvkbuntu-plasma-theme-v2, libqt5multimedia5, libqt5qml5, libqt5core5a, libqt5widgets5, espeak-ng, dvkbuntu-gtk-theme, libqt5widgets5, python3-pip, libttspico-utils, alsa-utils, libqt5webenginewidgets5
+Depends: kubuntu-desktop, dvkbuntu-menu-acceuil, latte-dock, dvkbuntu-plasma-theme-v2, libqt5multimedia5, libqt5qml5, libqt5core5a, libqt5widgets5, espeak-ng, dvkbuntu-gtk-theme, libqt5widgets5, python3-pip, libttspico-utils, alsa-utils, libqt5webenginewidgets5, libqt5gui5, libstdc++6, libc6, qtmultimedia5-dev, libqt5multimediawidgets5, libqt5multimedia5-plugins
 Description: 
   Easy menu est un menu ayant pour but de simplifier l’ensemble des usages classiques d’un ordinateur pour les personne rencontrant des difficultés avec l’informatique.
