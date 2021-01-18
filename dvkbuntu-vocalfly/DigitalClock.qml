@@ -303,13 +303,12 @@ Item {
             PropertyChanges {
                 target: dateLabel
 
-                // this can be marginal bigger than contentHeight because of the horizontal fit
-                height: sizehelper.contentHeight
                 width: main.width
 
                 fontSizeMode: Text.Fit
-                minimumPixelSize: Math.min(0.7 * theme.smallestFont.pixelSize, timeLabel.height)
+                font.minimumPixelSize: Math.max(theme.smallestFont.pixelSize, timeLabel.height)
                 elide: Text.ElideRight
+                wrapMode: Text.WordWrap
             }
 
             AnchorChanges {
@@ -416,9 +415,7 @@ Item {
     }
     MouseArea {
         id: mouseArea
-        
-        hoverEnabled: true
-        
+
         property int wheelDelta: 0
 
         anchors.fill: parent
@@ -428,9 +425,7 @@ Item {
             qprocess.launch("/usr/bin/LectureHeure");
         }
         
-        onClicked: { 
-            plasmoid.expanded = !plasmoid.expanded
-        }  
+        onClicked: plasmoid.expanded = !plasmoid.expanded
         onWheel: {
             if (!plasmoid.configuration.wheelChangesTimezone) {
                 return;
@@ -440,7 +435,7 @@ Item {
             var newIndex = main.tzIndex;
             wheelDelta += delta;
             // magic number 120 for common "one click"
-            // See: http://qt-project.org/doc/qt-5/qml-qtquick-wheelevent.html#angleDelta-prop
+            // See: https://doc.qt.io/qt-5/qml-qtquick-wheelevent.html#angleDelta-prop
             while (wheelDelta >= 120) {
                 wheelDelta -= 120;
                 newIndex--;
@@ -511,7 +506,7 @@ Item {
                     var msUTC = now.getTime() + (now.getTimezoneOffset() * 60000);
                     // add the dataengine TZ offset to it
                     var currentTime = new Date(msUTC + (dataSource.data[plasmoid.configuration.lastSelectedTimezone]["Offset"] * 1000));
-                    
+
                     main.currentTime = currentTime;
                     return Qt.formatTime(currentTime, main.timeFormat);
                 }

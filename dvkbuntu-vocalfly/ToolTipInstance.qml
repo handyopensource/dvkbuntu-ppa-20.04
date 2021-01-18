@@ -80,7 +80,7 @@ Column {
     }
     readonly property string artist: currentMetadata["xesam:artist"] || ""
     readonly property string albumArt: currentMetadata["mpris:artUrl"] || ""
-    
+
     //
     function containsMouse() {
         return area1.containsMouse || area2.containsMouse
@@ -448,8 +448,7 @@ Column {
     }
 
     function generateTitle() {
-        
-        if (!isWin) {            
+        if (!isWin) {
             return genericName != undefined ? genericName : "";
         }
 
@@ -489,12 +488,10 @@ Column {
         if (text === "") {
             text = "—";
         }
-        
         return text.toString();
     }
 
     function generateSubText() {
-        
         if (activitiesParent === undefined) {
             return "";
         }

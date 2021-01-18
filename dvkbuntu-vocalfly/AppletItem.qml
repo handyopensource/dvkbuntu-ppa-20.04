@@ -86,36 +86,68 @@ Item {
     property bool isSpacer: applet && (applet.pluginName === "org.kde.latte.spacer")
     property bool isSystray: applet && (applet.pluginName === "org.kde.plasma.systemtray" || applet.pluginName === "org.nomad.systemtray" )
 
-    property bool firstChildOfStartLayout: (index === layoutsContainer.startLayout.beginIndex)
-    property bool lastChildOfEndLayout: ((index === layoutsContainer.endLayout.beginIndex+layoutsContainer.endLayout.count-1)&&(layoutsContainer.endLayout.count>1))
+    property bool firstChildOfStartLayout: index === layoutsContainer.startLayout.firstVisibleIndex
+    property bool firstChildOfMainLayout: index === layoutsContainer.mainLayout.firstVisibleIndex
+    property bool lastChildOfMainLayout: index === layoutsContainer.mainLayout.lastVisibleIndex
+    property bool lastChildOfEndLayout: index === layoutsContainer.endLayout.lastVisibleIndex
 
     readonly property bool atScreenEdge: {
-        if (root.isHorizontal) {
-            if (firstChildOfStartLayout) {
-                return latteView && latteView.x === latteView.screenGeometry.x;
-            } else if (lastChildOfEndLayout) {
-                return latteView && ((latteView.x + latteView.width) === (latteView.screenGeometry.x + latteView.screenGeometry.width));
-            }
-        } else {
-            if (firstChildOfStartLayout) {
-                return latteView && latteView.y === latteView.screenGeometry.y;
-            } else if (lastChildOfEndLayout) {
-                return latteView && ((latteView.y + latteView.height) === (latteView.screenGeometry.y + latteView.screenGeometry.height));
-            }
+        if (root.panelAlignment !== Latte.Types.Justify || root.inConfigureAppletsMode || plasmoid.configuration.offset!==0) {
+            return false;
         }
+
+        if (root.panelAlignment === Latte.Types.Justify) {
+            //! Justify case
+            if (plasmoid.configuration.maxLength!==100) {
+                return false;
+            }
+
+            if (root.isHorizontal) {
+                if (firstChildOfStartLayout) {
+                    return latteView && latteView.x === latteView.screenGeometry.x;
+                } else if (lastChildOfEndLayout) {
+                    return latteView && ((latteView.x + latteView.width) === (latteView.screenGeometry.x + latteView.screenGeometry.width));
+                }
+            } else {
+                if (firstChildOfStartLayout) {
+                    return latteView && latteView.y === latteView.screenGeometry.y;
+                } else if (lastChildOfEndLayout) {
+                    return latteView && ((latteView.y + latteView.height) === (latteView.screenGeometry.y + latteView.screenGeometry.height));
+                }
+            }
+
+            return false;
+        }
+
+        //! [disabled] because it is probably not needed at all. If in the future there is a report
+        //! describing a case that this would be useful this disablement choice can be rethought
+        /*if (root.panelAlignment === Latte.Types.Left) {
+            //! Left case
+            return firstChildOfMainLayout;
+        } else if (root.panelAlignment === Latte.Types.Right) {
+            //! Right case
+            return lastChildOfMainLayout
+        }
+
+        if (root.panelAlignment === Latte.Types.Top) {
+            return firstChildOfMainLayout && latteView && latteView.y === latteView.screenGeometry.y;
+        } else if (root.panelAlignment === Latte.Types.Bottom) {
+            return lastChildOfMainLayout && latteView && ((latteView.y + latteView.height) === (latteView.screenGeometry.y + latteView.screenGeometry.height));
+        }*/
 
         return false;
     }
 
     //applet is in starting edge
-    /*property bool startEdge: index < layoutsContainer.endLayout.beginIndex ? (index === 0)&&(layoutsContainer.mainLayout.count > 1) :
-                                                               (index === layoutsContainer.endLayout.beginIndex)&&(layoutsContainer.endLayout.count > 1)*/
-    property bool startEdge: (index === layoutsContainer.startLayout.beginIndex) || (index === layoutsContainer.mainLayout.beginIndex) || (index === layoutsContainer.endLayout.beginIndex)
+    property bool firstAppletInContainer: (index >=0) &&
+                                          ((index === layoutsContainer.startLayout.firstVisibleIndex)
+                                           || (index === layoutsContainer.mainLayout.firstVisibleIndex)
+                                           || (index === layoutsContainer.endLayout.firstVisibleIndex))
     //applet is in ending edge
-    property bool endEdge: plasmoid.configuration.panelPosition !== Latte.Types.Justify ? (index === layoutsContainer.mainLayout.beginIndex + layoutsContainer.mainLayout.count - 1)&&(layoutsContainer.mainLayout.count>1) :
-                                                                                          (((index === layoutsContainer.startLayout.beginIndex+layoutsContainer.startLayout.count-2)&&(layoutsContainer.startLayout.count>2))
-                                                                                           ||((index === layoutsContainer.mainLayout.beginIndex+layoutsContainer.mainLayout.count-2)&&(layoutsContainer.mainLayout.count>2))
-                                                                                           ||((index === layoutsContainer.endLayout.beginIndex+layoutsContainer.endLayout.count-1)&&(layoutsContainer.endLayout.count>1)))
+    property bool lastAppletInContainer: (index >=0) &&
+                                         ((index === layoutsContainer.startLayout.lastVisibleIndex)
+                                          || (index === layoutsContainer.mainLayout.lastVisibleIndex)
+                                          || (index === layoutsContainer.endLayout.lastVisibleIndex))
 
     readonly property bool acceptMouseEvents: applet && !isLattePlasmoid && !originalAppletBehavior && !appletItem.isSeparator && !communicator.parabolicEffectLocked
     readonly property bool originalAppletBehavior: (root.zoomFactor === 1 && !lockZoom /*hacky flag to keep Latte behavior*/)
@@ -145,8 +177,29 @@ Item {
     property int lengthAppletFullMargin: lengthAppletIntMargin + root.lengthExtMargin
     property int lengthAppletFullMargins: 2 * lengthAppletFullMargin
 
-    property int internalWidthMargins: root.isVertical ? root.thickMargins : 2 * lengthAppletIntMargin
-    property int internalHeightMargins: root.isHorizontal ? root.thickMargins : 2 * lengthAppletIntMargin
+    property int internalWidthMargins: {
+        if (root.isVertical) {
+            return root.thickMargins;
+        }
+
+        /*TODO, Fitt's case: is temporary until the atScreenEdge applets are aligned properly to the corner and the wrapper
+          is taking all the space needed in order to fill right. For atScreenEdge appplets that should be: applet size + lengthAppletIntMargin + lengthAppletExtMargin.
+          The indicator should follow also the applet alignment in this in order to feel right
+          */
+        return 2 * lengthAppletIntMargin;
+    }
+
+    property int internalHeightMargins: {
+        if (root.isHorizontal) {
+            return root.thickMargins;
+        }
+
+        /*TODO,Fitt's case: is temporary until the atScreenEdge applets are aligned properly to the corner and the wrapper
+          is taking all the space needed in order to fill right. For atScreenEdge appplets that should be: applet size + lengthAppletIntMargin + lengthAppletExtMargin.
+          The indicator should follow also the applet alignment in this in order to feel right
+          */
+        return 2 * lengthAppletIntMargin;
+    }
 
     //! are set by the indicator
     property int iconOffsetX: 0
@@ -166,9 +219,7 @@ Item {
     property Item latteStyleApplet: applet && ((applet.pluginName === "org.kde.latte.spacer") || (applet.pluginName === "org.kde.latte.separator")) ?
                                         (applet.children[0] ? applet.children[0] : null) : null
 
-    property Item appletWrapper: applet &&
-                                 ((applet.pluginName === root.plasmoidName) ||
-                                  isSystray) ? wrapper : wrapper.wrapperContainer
+    property Item appletWrapper: applet && (applet.pluginName === root.plasmoidName )? wrapper : wrapper.wrapperContainer
 
     property Item tooltipVisualParent: titleTooltipParent
 
@@ -377,6 +428,11 @@ Item {
 
         return false;
     }
+
+    function refersEntryIndex(entryIndex) {
+        return (entryIndex === parabolicManager.pseudoAppletIndex(appletItem.index));
+    }
+
     ///END functions
 
     //BEGIN connections
@@ -470,8 +526,8 @@ Item {
 
     Component.onDestruction: {
         if (animationWasSent) {
-             root.slotAnimationsNeedBothAxis(-1);
-             animationWasSent = false;
+            root.slotAnimationsNeedBothAxis(-1);
+            animationWasSent = false;
         }
 
         if (isSeparator){
@@ -540,7 +596,7 @@ Item {
         onSignalActivateEntryAtIndex: {
             if (parabolicManager.pseudoIndexBelongsToLatteApplet(entryIndex) && appletItem.isLattePlasmoid) {
                 latteApplet.activateTaskAtIndex(entryIndex - latteApplet.tasksBaseIndex);
-            } else if (root.unifiedGlobalShortcuts && (entryIndex === parabolicManager.pseudoAppletIndex(appletItem.index))) {
+            } else if (root.unifiedGlobalShortcuts && refersEntryIndex(entryIndex)) {
                 latteView.toggleAppletExpanded(applet.id);
             }
         }
@@ -548,7 +604,7 @@ Item {
         onSignalNewInstanceForEntryAtIndex: {
             if (parabolicManager.pseudoIndexBelongsToLatteApplet(entryIndex) && appletItem.isLattePlasmoid) {
                 latteApplet.newInstanceForTaskAtIndex(entryIndex - latteApplet.tasksBaseIndex);
-            } else if (root.unifiedGlobalShortcuts && (entryIndex === parabolicManager.pseudoAppletIndex(appletItem.index))) {
+            } else if (root.unifiedGlobalShortcuts && refersEntryIndex(entryIndex)) {
                 latteView.toggleAppletExpanded(applet.id);
             }
         }
@@ -591,7 +647,10 @@ Item {
                 var local = appletItem.mapFromItem(root, pos.x, pos.y);
 
                 appletItem.mousePressed(local.x, local.y, button);
-                appletItem.activateAppletForNeutralAreas(local);
+
+                if (button === Qt.LeftButton) {
+                    appletItem.activateAppletForNeutralAreas(local);
+                }
             }
         }
 
@@ -792,14 +851,12 @@ Item {
             title: i18n("Tasks Area")
         }
     }
-    QLauncher {
-        id: qprocess
-    }
+
     MouseArea{
         id: appletMouseArea
 
         anchors.fill: parent
-        enabled: true //visible
+        enabled: visible
         hoverEnabled: latteApplet ? false : true
         propagateComposedEvents: true
 
@@ -807,7 +864,7 @@ Item {
         //! only to support springloading for plasma 5.10
         //! also on this is based the tooltips behavior by enabling it
         //! plasma tooltips are disabled
-        visible: true //acceptMouseEvents
+        visible: acceptMouseEvents
 
         property bool blockWheel: false
 
@@ -864,7 +921,9 @@ Item {
             if (communicator.appletIconItemIsShown()) {
                 communicator.setAppletIconItemActive(false);
             }
+            
             qprocess.launch('createWaveFromItem ""');
+            
             root.hideTooltipLabel();
 
             if (root.zoomFactor>1){
@@ -873,7 +932,6 @@ Item {
         }
 
         onPositionChanged: {
-            
             if (originalAppletBehavior || !canBeHovered) {
                 mouse.accepted = false;
                 return;
@@ -921,8 +979,6 @@ Item {
         //! these are needed in order for these events to be really forwarded underneath
         //! otherwise there were applets that did not receive them e.g. lock/logout applet
         //! when parabolic effect was used
-        //onPressed: mouse.accepted = false;
-        
         onPressed: {
             if (applet.title != "Latte Tasks") {
                 if (!isExpanded) {
