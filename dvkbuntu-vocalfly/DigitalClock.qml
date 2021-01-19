@@ -415,6 +415,8 @@ Item {
     }
     MouseArea {
         id: mouseArea
+        
+        hoverEnabled: true
 
         property int wheelDelta: 0
 
