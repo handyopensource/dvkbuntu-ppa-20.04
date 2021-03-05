@@ -1,5 +1,23 @@
-dvkbuntu-hos-wallpaper (4.0-1) focal; urgency=medium
+dvkbuntu-hos-wallpaper (4.4-1) focal; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Mise à jour validation
 
- -- Paul WOISARD <paulwoisard@gmail.com>  Mon, 22 Apr 2019 12:51:32 +0200
+ -- Paul WOISARD <paulwoisard@gmail.com>  Fri, 05 Mar 2021 23:13:56 +0100
+
+dvkbuntu-hos-wallpaper (4.3-1) focal; urgency=medium
+
+  * Mise à jour pour valider le paquet
+
+ -- Paul WOISARD <paulwoisard@gmail.com>  Fri, 05 Mar 2021 22:59:13 +0100
+
+dvkbuntu-hos-wallpaper (4.2-1) focal; urgency=medium
+
+  * Essai de mise à jour
+
+ -- Paul WOISARD <paulwoisard@gmail.com>  Fri, 05 Mar 2021 21:40:34 +0100
+
+dvkbuntu-hos-wallpaper (4.1-1) focal; urgency=medium
+
+  * Initial release
+
+ -- Paul WOISARD <paulwoisard@gmail.com>  Fri, 05 Mar 2021 18:16:32 +0100

@@ -1,10 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: dvkbuntu-flamme
-Source: <url://example.com>
+Upstream-Name: dvkbuntu-hos-wallpaper
+Source: https://github.com/handyopensource/dvkbuntu-ppa-20.04/tree/master/dvkbuntu-hos-wallpaper
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
+Copyright: 2021 Paul WOISARD paulwoisard@gmail.com
+           2021 San
 License: <special license>
  <Put the license of the package here indented by 1 space>
  <This follows the format of Description: lines in control file>
@@ -14,7 +14,7 @@ License: <special license>
 # If you want to use GPL v2 or later for the /debian/* files use 
 # the following clauses, or change it to suit. Delete these two lines
 Files: debian/*
-Copyright: 2019 paul <paulwoisard@gmail.com>
+Copyright: 2021 paul <paulwoisard@gmail.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
